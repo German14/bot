@@ -1,0 +1,9 @@
+export const MARKETS = [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "LINKUSDT",
+    "AVAXUSDT",
+    "ADAUSDT",
+    "DOTUSDT"
+  ];
