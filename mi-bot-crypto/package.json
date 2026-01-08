@@ -1,0 +1,20 @@
+{
+  "name": "crypto-sentiment-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "add": "node src/cli.js",
+    "download": "node descargar_config.js",
+    "predict": "node predictor.js",
+    "predict-scheduler": "node predictor_scheduler.js",
+    "show-history": "node show_history.js"
+  },
+  "dependencies": {
+    "@coinbase/coinbase-sdk": "^0.25.0",
+    "axios": "^1.13.2",
+    "dotenv": "^16.4.0",
+    "newsapi": "^2.4.1",
+    "sentiment": "^5.0.2"
+  }
+}
