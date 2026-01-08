@@ -1,0 +1,312 @@
+[
+  {
+    "fecha": "2026-01-07T18:02:59.525Z",
+    "moneda": "BTC",
+    "precio_usd": 91207,
+    "analisis": {
+      "menciones": 7,
+      "puntaje": -3,
+      "veredicto": "BEARISH 📉"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:02:59.960Z",
+    "moneda": "SOL",
+    "precio_usd": 135.57,
+    "analisis": {
+      "menciones": 35,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:06:12.610Z",
+    "moneda": "BTC",
+    "precio_usd": 91175,
+    "analisis": {
+      "menciones": 7,
+      "puntaje": -3,
+      "veredicto": "BEARISH 📉"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:06:13.053Z",
+    "moneda": "SOL",
+    "precio_usd": 135.51,
+    "analisis": {
+      "menciones": 35,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:06:13.475Z",
+    "moneda": "ETH",
+    "precio_usd": 3149.85,
+    "analisis": {
+      "menciones": 12,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:12:46.683Z",
+    "moneda": "BTC",
+    "precio_usd": 91184,
+    "analisis": {
+      "menciones": 7,
+      "puntaje": -3,
+      "veredicto": "BEARISH 📉"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:12:47.115Z",
+    "moneda": "SOL",
+    "precio_usd": 135.34,
+    "analisis": {
+      "menciones": 35,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:12:47.621Z",
+    "moneda": "ETH",
+    "precio_usd": 3148.11,
+    "analisis": {
+      "menciones": 12,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:13:22.791Z",
+    "moneda": "BTC",
+    "precio_usd": 91214,
+    "analisis": {
+      "menciones": 7,
+      "puntaje": -3,
+      "veredicto": "BEARISH 📉"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:13:23.192Z",
+    "moneda": "SOL",
+    "precio_usd": 135.34,
+    "analisis": {
+      "menciones": 35,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:14:22.803Z",
+    "moneda": "BTC",
+    "precio_usd": 91218,
+    "analisis": {
+      "menciones": 7,
+      "puntaje": -3,
+      "veredicto": "BEARISH 📉"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:14:23.316Z",
+    "moneda": "SOL",
+    "precio_usd": 135.31,
+    "analisis": {
+      "menciones": 35,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:14:23.874Z",
+    "moneda": "ETH",
+    "precio_usd": 3149.23,
+    "analisis": {
+      "menciones": 12,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:21:10.037Z",
+    "moneda": "BTC",
+    "precio_usd": 91195,
+    "analisis": {
+      "menciones": 7,
+      "puntaje": -3,
+      "veredicto": "BEARISH 📉"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:21:10.497Z",
+    "moneda": "SOL",
+    "precio_usd": 135.2,
+    "analisis": {
+      "menciones": 35,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:21:11.045Z",
+    "moneda": "ETH",
+    "precio_usd": 3151.52,
+    "analisis": {
+      "menciones": 12,
+      "puntaje": 36,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-07T18:21:11.751Z",
+    "moneda": "XLD",
+    "precio_usd": 0.00153563,
+    "analisis": {
+      "menciones": 0,
+      "puntaje": 0,
+      "veredicto": "SIN NOTICIAS"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:41:56.415Z",
+    "moneda": "BTC",
+    "precio_usd": 90984,
+    "analisis": {
+      "menciones": 18,
+      "puntaje": 50,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:41:56.874Z",
+    "moneda": "SOL",
+    "precio_usd": 137.57,
+    "analisis": {
+      "menciones": 23,
+      "puntaje": 19,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:41:57.303Z",
+    "moneda": "ETH",
+    "precio_usd": 3115.92,
+    "analisis": {
+      "menciones": 4,
+      "puntaje": 1,
+      "veredicto": "NEUTRAL ⚖️"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:42:57.675Z",
+    "moneda": "XLD",
+    "precio_usd": 0.00152597,
+    "analisis": {
+      "menciones": 0,
+      "puntaje": 0,
+      "veredicto": "SIN NOTICIAS"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:47:59.726Z",
+    "moneda": "BTC",
+    "precio_usd": 91095,
+    "analisis": {
+      "menciones": 18,
+      "puntaje": 50,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:48:00.159Z",
+    "moneda": "SOL",
+    "precio_usd": 137.73,
+    "analisis": {
+      "menciones": 23,
+      "puntaje": 19,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:48:00.570Z",
+    "moneda": "ETH",
+    "precio_usd": 3118.53,
+    "analisis": {
+      "menciones": 4,
+      "puntaje": 1,
+      "veredicto": "NEUTRAL ⚖️"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:51:01.783Z",
+    "moneda": "BTC",
+    "precio_usd": 91098,
+    "analisis": {
+      "menciones": 18,
+      "puntaje": 50,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:51:02.227Z",
+    "moneda": "SOL",
+    "precio_usd": 137.78,
+    "analisis": {
+      "menciones": 23,
+      "puntaje": 19,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:51:02.793Z",
+    "moneda": "ETH",
+    "precio_usd": 3120.63,
+    "analisis": {
+      "menciones": 4,
+      "puntaje": 1,
+      "veredicto": "NEUTRAL ⚖️"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:52:01.729Z",
+    "moneda": "BTC",
+    "precio_usd": 91129,
+    "analisis": {
+      "menciones": 18,
+      "puntaje": 50,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:57:01.684Z",
+    "moneda": "GIB",
+    "precio_usd": 0.00281513,
+    "analisis": {
+      "menciones": 0,
+      "puntaje": 0,
+      "veredicto": "SIN NOTICIAS"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:57:02.273Z",
+    "moneda": "000",
+    "precio_usd": 0.00004145,
+    "analisis": {
+      "menciones": 17,
+      "puntaje": 9,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T17:57:02.897Z",
+    "moneda": "01111010011110000110001001110100",
+    "precio_usd": 0.00018015,
+    "analisis": {
+      "menciones": 0,
+      "puntaje": 0,
+      "veredicto": "SIN NOTICIAS"
+    }
+  }
+]
