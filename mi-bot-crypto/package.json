@@ -8,7 +8,11 @@
     "download": "node descargar_config.js",
     "predict": "node predictor.js",
     "predict-scheduler": "node predictor_scheduler.js",
-    "show-history": "node show_history.js"
+    "show-history": "node show_history.js",
+    "generate-report": "node generate_report.js",
+    "regenerate-css": "node -e \"const fs = require('fs'); fs.unlinkSync('./styles.css'); require('./generate_report.js');\"",
+    "open-report": "start prediction_report.html",
+    "full-report": "npm run predict && node predictor_single.js && npm run generate-report && npm run open-report"
   },
   "dependencies": {
     "@coinbase/coinbase-sdk": "^0.25.0",
