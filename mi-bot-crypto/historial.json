@@ -308,5 +308,35 @@
       "puntaje": 0,
       "veredicto": "SIN NOTICIAS"
     }
+  },
+  {
+    "fecha": "2026-01-08T18:14:55.095Z",
+    "moneda": "GIB",
+    "precio_usd": 0.00282978,
+    "analisis": {
+      "menciones": 0,
+      "puntaje": 0,
+      "veredicto": "SIN NOTICIAS"
+    }
+  },
+  {
+    "fecha": "2026-01-08T18:14:55.751Z",
+    "moneda": "000",
+    "precio_usd": 0.00004158,
+    "analisis": {
+      "menciones": 17,
+      "puntaje": 9,
+      "veredicto": "BULLISH 🚀"
+    }
+  },
+  {
+    "fecha": "2026-01-08T18:14:56.312Z",
+    "moneda": "01111010011110000110001001110100",
+    "precio_usd": 0.00018036,
+    "analisis": {
+      "menciones": 0,
+      "puntaje": 0,
+      "veredicto": "SIN NOTICIAS"
+    }
   }
 ]
