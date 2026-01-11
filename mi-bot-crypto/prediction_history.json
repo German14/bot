@@ -1,5 +1,121 @@
 [
   {
+    "timestamp": "2026-01-11T22:55:52.781Z",
+    "result": {
+      "timestamp": "11/1/2026, 23:55:50",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.3%",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +2.0%",
+        " 4. AVAX   | Score:  35.0 | TECHNICAL | Forecast: +6.6%",
+        " 5. DOT    | Score:  35.0 | TECHNICAL | Forecast: +6.2%",
+        " 6. RENDER | Score:  26.0 | MARKET",
+        " 7. XMR    | Score:  25.0 | MARKET",
+        " 8. CC     | Score:  25.0 | MARKET",
+        " 9. ZEC    | Score:  24.0 | MARKET",
+        " 10. USDT   | Score:  23.0 | MARKET",
+        " 11. BSC-USD | Score:  23.0 | MARKET",
+        " 12. USD1   | Score:  23.0 | MARKET",
+        " 13. LINK   | Score:  15.0 | TECHNICAL | Forecast: +1.5%",
+        " 14. ADA    | Score:  15.0 | TECHNICAL | Forecast: +0.9%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.3%",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +2.0%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (-0.0%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap\n   └─ Market Cap Rank: #6 | 24h Change: 1.92%\n   └─ RSI:   NaN | Momentum 7d:   3.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.0%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.3%\n   └─ Factores: Pronóstico 7d neutral (2.3%) • Sentimiento muy positivo • Top 2 por market cap\n   └─ Market Cap Rank: #2 | 24h Change: 0.93%\n   └─ RSI:   NaN | Momentum 7d:  -1.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.3%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +2.0%\n   └─ Factores: Pronóstico 7d neutral (2.0%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap\n   └─ Market Cap Rank: #1 | 24h Change: 0.19%\n   └─ RSI:   NaN | Momentum 7d:  -1.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.0%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  35.0 | TECHNICAL | Forecast: +6.6%\n   └─ Factores: Pronóstico 7d alcista (+6.6%) • Top 31 por market cap\n   └─ Market Cap Rank: #31 | 24h Change: -0.78%\n   └─ RSI:   NaN | Momentum 7d:  -4.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.6%\n\n 5. DOT    | Score:  35.0 | TECHNICAL | Forecast: +6.2%\n   └─ Factores: Pronóstico 7d alcista (+6.2%) • Top 46 por market cap\n   └─ Market Cap Rank: #46 | 24h Change: -2.02%\n   └─ RSI:   NaN | Momentum 7d:  -3.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.2%\n\n 6. RENDER | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #81 | 24h Change: 13.16%\n\n 7. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 18 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #18 | 24h Change: 15.84%\n\n 8. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 11.33%\n\n 9. ZEC    | Score:  24.0 | MARKET\n   └─ Factores: Top 29 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #29 | 24h Change: 2.67%\n\n 10. USDT   | Score:  23.0 | MARKET\n   └─ Factores: Top 3 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #3 | 24h Change: -0.01%\n\n 11. BSC-USD | Score:  23.0 | MARKET\n   └─ Factores: Top 22 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #22 | 24h Change: 0.01%\n\n 12. USD1   | Score:  23.0 | MARKET\n   └─ Factores: Top 45 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #45 | 24h Change: -0.02%\n\n 13. LINK   | Score:  15.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Pronóstico 7d neutral (1.5%) • Top 21 por market cap\n   └─ Market Cap Rank: #21 | 24h Change: 0.27%\n   └─ RSI:   NaN | Momentum 7d:  -1.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 14. ADA    | Score:  15.0 | TECHNICAL | Forecast: +0.9%\n   └─ Factores: Pronóstico 7d neutral (0.9%) • Top 12 por market cap\n   └─ Market Cap Rank: #12 | 24h Change: 0.46%\n   └─ RSI:   NaN | Momentum 7d:  -3.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.9%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-11T22:50:00.576Z",
+    "result": {
+      "timestamp": "11/1/2026, 23:49:58",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.2%",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +1.9%",
+        " 4. AVAX   | Score:  35.0 | TECHNICAL | Forecast: +6.5%",
+        " 5. DOT    | Score:  35.0 | TECHNICAL | Forecast: +6.0%",
+        " 6. RENDER | Score:  26.0 | MARKET",
+        " 7. XMR    | Score:  25.0 | MARKET",
+        " 8. CC     | Score:  25.0 | MARKET",
+        " 9. ZEC    | Score:  24.0 | MARKET",
+        " 10. USDT   | Score:  23.0 | MARKET",
+        " 11. BSC-USD | Score:  23.0 | MARKET",
+        " 12. USD1   | Score:  23.0 | MARKET",
+        " 13. LINK   | Score:  15.0 | TECHNICAL | Forecast: +1.5%",
+        " 14. ADA    | Score:  15.0 | TECHNICAL | Forecast: +0.7%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.2%",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +1.9%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (-0.0%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap\n   └─ Market Cap Rank: #6 | 24h Change: 1.84%\n   └─ RSI:   NaN | Momentum 7d:   3.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.0%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.2%\n   └─ Factores: Pronóstico 7d neutral (2.2%) • Sentimiento muy positivo • Top 2 por market cap\n   └─ Market Cap Rank: #2 | 24h Change: 0.86%\n   └─ RSI:   NaN | Momentum 7d:  -0.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.2%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +1.9%\n   └─ Factores: Pronóstico 7d neutral (1.9%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap\n   └─ Market Cap Rank: #1 | 24h Change: 0.13%\n   └─ RSI:   NaN | Momentum 7d:  -0.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.9%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  35.0 | TECHNICAL | Forecast: +6.5%\n   └─ Factores: Pronóstico 7d alcista (+6.5%) • Top 31 por market cap\n   └─ Market Cap Rank: #31 | 24h Change: -0.76%\n   └─ RSI:   NaN | Momentum 7d:  -4.1%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.5%\n\n 5. DOT    | Score:  35.0 | TECHNICAL | Forecast: +6.0%\n   └─ Factores: Pronóstico 7d alcista (+6.0%) • Top 46 por market cap\n   └─ Market Cap Rank: #46 | 24h Change: -2.15%\n   └─ RSI:   NaN | Momentum 7d:  -3.7%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.0%\n\n 6. RENDER | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #81 | 24h Change: 12.55%\n\n 7. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 18 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #18 | 24h Change: 16.44%\n\n 8. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 10.80%\n\n 9. ZEC    | Score:  24.0 | MARKET\n   └─ Factores: Top 29 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #29 | 24h Change: 2.20%\n\n 10. USDT   | Score:  23.0 | MARKET\n   └─ Factores: Top 3 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #3 | 24h Change: -0.02%\n\n 11. BSC-USD | Score:  23.0 | MARKET\n   └─ Factores: Top 22 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #22 | 24h Change: 0.00%\n\n 12. USD1   | Score:  23.0 | MARKET\n   └─ Factores: Top 45 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #45 | 24h Change: 0.03%\n\n 13. LINK   | Score:  15.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Pronóstico 7d neutral (1.5%) • Top 21 por market cap\n   └─ Market Cap Rank: #21 | 24h Change: 0.11%\n   └─ RSI:   NaN | Momentum 7d:  -1.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 14. ADA    | Score:  15.0 | TECHNICAL | Forecast: +0.7%\n   └─ Factores: Pronóstico 7d neutral (0.7%) • Top 12 por market cap\n   └─ Market Cap Rank: #12 | 24h Change: 0.23%\n   └─ RSI:   NaN | Momentum 7d:  -2.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.7%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-11T22:49:16.491Z",
+    "result": {
+      "timestamp": "11/1/2026, 23:49:14",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.2%",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +1.9%",
+        " 4. AVAX   | Score:  35.0 | TECHNICAL | Forecast: +6.5%",
+        " 5. DOT    | Score:  35.0 | TECHNICAL | Forecast: +6.0%",
+        " 6. RENDER | Score:  26.0 | MARKET",
+        " 7. XMR    | Score:  25.0 | MARKET",
+        " 8. CC     | Score:  25.0 | MARKET",
+        " 9. ZEC    | Score:  24.0 | MARKET",
+        " 10. USDT   | Score:  23.0 | MARKET",
+        " 11. BSC-USD | Score:  23.0 | MARKET",
+        " 12. USD1   | Score:  23.0 | MARKET",
+        " 13. LINK   | Score:  15.0 | TECHNICAL | Forecast: +1.5%",
+        " 14. ADA    | Score:  15.0 | TECHNICAL | Forecast: +0.7%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.2%",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +1.9%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  63.0 | TECHNICAL | Forecast: -0.0%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (-0.0%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap\n   └─ Market Cap Rank: #6 | 24h Change: 1.84%\n   └─ RSI:   NaN | Momentum 7d:   3.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.0%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  45.0 | TECHNICAL | Forecast: +2.2%\n   └─ Factores: Pronóstico 7d neutral (2.2%) • Sentimiento muy positivo • Top 2 por market cap\n   └─ Market Cap Rank: #2 | 24h Change: 0.86%\n   └─ RSI:   NaN | Momentum 7d:  -0.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.2%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  35.0 | TECHNICAL | Forecast: +1.9%\n   └─ Factores: Pronóstico 7d neutral (1.9%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap\n   └─ Market Cap Rank: #1 | 24h Change: 0.13%\n   └─ RSI:   NaN | Momentum 7d:  -0.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.9%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  35.0 | TECHNICAL | Forecast: +6.5%\n   └─ Factores: Pronóstico 7d alcista (+6.5%) • Top 31 por market cap\n   └─ Market Cap Rank: #31 | 24h Change: -0.76%\n   └─ RSI:   NaN | Momentum 7d:  -4.1%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.5%\n\n 5. DOT    | Score:  35.0 | TECHNICAL | Forecast: +6.0%\n   └─ Factores: Pronóstico 7d alcista (+6.0%) • Top 46 por market cap\n   └─ Market Cap Rank: #46 | 24h Change: -2.15%\n   └─ RSI:   NaN | Momentum 7d:  -3.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.0%\n\n 6. RENDER | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #81 | 24h Change: 12.55%\n\n 7. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 18 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #18 | 24h Change: 16.44%\n\n 8. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 10.80%\n\n 9. ZEC    | Score:  24.0 | MARKET\n   └─ Factores: Top 29 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #29 | 24h Change: 2.20%\n\n 10. USDT   | Score:  23.0 | MARKET\n   └─ Factores: Top 3 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #3 | 24h Change: -0.02%\n\n 11. BSC-USD | Score:  23.0 | MARKET\n   └─ Factores: Top 22 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #22 | 24h Change: 0.00%\n\n 12. USD1   | Score:  23.0 | MARKET\n   └─ Factores: Top 45 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #45 | 24h Change: 0.03%\n\n 13. LINK   | Score:  15.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Pronóstico 7d neutral (1.5%) • Top 21 por market cap\n   └─ Market Cap Rank: #21 | 24h Change: 0.11%\n   └─ RSI:   NaN | Momentum 7d:  -1.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 14. ADA    | Score:  15.0 | TECHNICAL | Forecast: +0.7%\n   └─ Factores: Pronóstico 7d neutral (0.7%) • Top 12 por market cap\n   └─ Market Cap Rank: #12 | 24h Change: 0.23%\n   └─ RSI:   NaN | Momentum 7d:  -2.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.7%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-11T22:45:23.896Z",
+    "result": {
+      "timestamp": "11/1/2026, 23:45:21",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL",
+        " 4. RENDER | Score:  26.0 | MARKET",
+        " 5. XMR    | Score:  25.0 | MARKET",
+        " 6. CC     | Score:  25.0 | MARKET",
+        " 7. ZEC    | Score:  24.0 | MARKET",
+        " 8. USDT   | Score:  23.0 | MARKET",
+        " 9. BSC-USD | Score:  23.0 | MARKET",
+        " 10. USD1   | Score:  23.0 | MARKET",
+        " 11. LINK   | Score:  15.0 | TECHNICAL",
+        " 12. AVAX   | Score:  15.0 | TECHNICAL",
+        " 13. ADA    | Score:  15.0 | TECHNICAL",
+        " 14. DOT    | Score:  15.0 | TECHNICAL"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  63.0 | TECHNICAL",
+        "🥈 ETH    | Score:  45.0 | TECHNICAL",
+        "🥉 BTC    | Score:  35.0 | TECHNICAL"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  63.0 | TECHNICAL\n   └─ Factores: Momentum 7d positivo • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap\n   └─ Market Cap Rank: #6 | 24h Change: 1.86%\n   └─ RSI:   NaN | Momentum 7d:   3.1%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  45.0 | TECHNICAL\n   └─ Factores: Sentimiento muy positivo • Top 2 por market cap\n   └─ Market Cap Rank: #2 | 24h Change: 0.82%\n   └─ RSI:   NaN | Momentum 7d:  -1.0%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  35.0 | TECHNICAL\n   └─ Factores: Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap\n   └─ Market Cap Rank: #1 | 24h Change: 0.10%\n   └─ RSI:   NaN | Momentum 7d:  -1.0%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. RENDER | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #81 | 24h Change: 12.46%\n\n 5. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 18 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #18 | 24h Change: 16.41%\n\n 6. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 10.57%\n\n 7. ZEC    | Score:  24.0 | MARKET\n   └─ Factores: Top 29 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #29 | 24h Change: 2.06%\n\n 8. USDT   | Score:  23.0 | MARKET\n   └─ Factores: Top 3 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #3 | 24h Change: -0.02%\n\n 9. BSC-USD | Score:  23.0 | MARKET\n   └─ Factores: Top 22 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #22 | 24h Change: -0.03%\n\n 10. USD1   | Score:  23.0 | MARKET\n   └─ Factores: Top 45 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #45 | 24h Change: 0.00%\n\n 11. LINK   | Score:  15.0 | TECHNICAL\n   └─ Factores: Top 21 por market cap\n   └─ Market Cap Rank: #21 | 24h Change: 0.06%\n   └─ RSI:   NaN | Momentum 7d:  -2.0%\n\n 12. AVAX   | Score:  15.0 | TECHNICAL\n   └─ Factores: Top 31 por market cap\n   └─ Market Cap Rank: #31 | 24h Change: -0.77%\n   └─ RSI:   NaN | Momentum 7d:  -4.1%\n\n 13. ADA    | Score:  15.0 | TECHNICAL\n   └─ Factores: Top 12 por market cap\n   └─ Market Cap Rank: #12 | 24h Change: 0.28%\n   └─ RSI:   NaN | Momentum 7d:  -2.9%\n\n 14. DOT    | Score:  15.0 | TECHNICAL\n   └─ Factores: Top 46 por market cap\n   └─ Market Cap Rank: #46 | 24h Change: -2.23%\n   └─ RSI:   NaN | Momentum 7d:  -3.9%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
     "timestamp": "2026-01-08T18:49:03.516Z",
     "result": {
       "timestamp": "8/1/2026, 19:49:01",

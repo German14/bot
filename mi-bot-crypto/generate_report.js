@@ -142,16 +142,18 @@ function generateHTMLReport() {
                                 <div class="prediction-coins-scroll">
                                     <div class="coins-list">
                                         ${(entry.result.allCoins || entry.result.top3 || []).map((line, coinIndex) => {
-                                            const match = line.match(/(?:🥇|🥈|🥉|\d+\.)\s+(\w+)\s+\|\s+Score:\s+(\d+\.\d+)\s+\|\s+(\w+)/);
+                                            const match = line.match(/(?:🥇|🥈|🥉|\d+\.)\s+(\w+)\s+\|\s+Score:\s+(\d+\.\d+)\s+\|\s+(\w+)(?:\s+\|\s+Forecast:\s+([+-]?\d+\.\d+)%?)?/);
                                             if (match) {
-                                                const [, symbol, score, category] = match;
+                                                const [, symbol, score, category, forecast] = match;
                                                 const scoreNum = parseFloat(score);
+                                                const forecastNum = forecast ? parseFloat(forecast) : null;
                                                 return `
                                                     <div class="coin-item ${scoreNum >= 50 ? 'high-score' : scoreNum >= 30 ? 'medium-score' : 'low-score'}">
                                                         <div class="coin-rank">#${coinIndex + 1}</div>
                                                         <div class="coin-symbol">${symbol}</div>
                                                         <div class="coin-score">${score}</div>
                                                         <div class="coin-category">${category}</div>
+                                                        ${forecast ? `<div class="coin-forecast ${forecastNum > 0 ? 'positive' : forecastNum < 0 ? 'negative' : ''}">📈 ${forecast}%</div>` : ''}
                                                     </div>
                                                 `;
                                             }
@@ -169,6 +171,65 @@ function generateHTMLReport() {
                     </div>
                 `).join('')}
                 </div>
+            </div>
+
+            <div class="latest-prediction-section">
+                <h2><i class="fas fa-clock"></i> Última Predicción</h2>
+                <p class="section-subtitle">Análisis detallado de la predicción más reciente (${history[0] ? new Date(history[0].result.timestamp).toLocaleString('es-ES') : 'N/A'})</p>
+                <p class="section-note"><i class="fas fa-info-circle"></i> Para información detallada completa (RSI, momentum, sentimiento, etc.), consulta la sección de Historial de Predicciones más abajo.</p>
+
+                ${history[0] && history[0].result.success ? `
+                    <div class="latest-prediction-table-container">
+                        <table class="latest-prediction-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Moneda</th>
+                                    <th>Score</th>
+                                    <th>Categoría</th>
+                                    <th>Pronóstico 7d</th>
+                                    <th>Factores</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${(history[0].result.allCoins || history[0].result.top3 || []).map((line, coinIndex) => {
+                                    const match = line.match(/(?:🥇|🥈|🥉|\d+\.)\s+(\w+)\s+\|\s+Score:\s+(\d+\.\d+)\s+\|\s+(\w+)(?:\s+\|\s+Forecast:\s+([+-]?\d+\.\d+)%?)?/);
+                                    if (match) {
+                                        const [, symbol, score, category, forecast] = match;
+                                        const scoreNum = parseFloat(score);
+                                        const forecastNum = forecast ? parseFloat(forecast) : null;
+                                        
+                                        // Extraer factores de la línea siguiente si existe
+                                        let factors = 'Ver historial para detalles';
+                                        if (history[0].result.allCoins && history[0].result.allCoins.length > coinIndex + 1) {
+                                            const nextLine = history[0].result.allCoins[coinIndex + 1];
+                                            if (nextLine.includes('└─ Factores:')) {
+                                                factors = nextLine.split('└─ Factores:')[1].trim();
+                                            }
+                                        }
+                                        
+                                        return `
+                                            <tr class="${scoreNum >= 50 ? 'high-score' : scoreNum >= 30 ? 'medium-score' : 'low-score'}">
+                                                <td class="rank">${coinIndex + 1}</td>
+                                                <td class="symbol"><strong>${symbol}</strong></td>
+                                                <td class="score">${score}</td>
+                                                <td class="category">${category}</td>
+                                                <td class="forecast ${forecastNum > 0 ? 'positive' : forecastNum < 0 ? 'negative' : ''}">${forecast ? `${forecast}%` : 'N/A'}</td>
+                                                <td class="factors">${factors}</td>
+                                            </tr>
+                                        `;
+                                    }
+                                    return '';
+                                }).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                ` : `
+                    <div class="no-data">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>No hay datos de predicción disponibles</p>
+                    </div>
+                `}
             </div>
 
             <div class="trends-section">

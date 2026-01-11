@@ -2,7 +2,37 @@ const axios = require('axios');
 const fs = require('fs');
 require('dotenv').config();
 
-// Función para obtener datos técnicos (del bot cuantitativo)
+// Función para regresión lineal simple
+function linearRegression(data) {
+  const n = data.length;
+  const sumX = data.reduce((sum, point, i) => sum + i, 0);
+  const sumY = data.reduce((sum, point) => sum + point, 0);
+  const sumXY = data.reduce((sum, point, i) => sum + i * point, 0);
+  const sumXX = data.reduce((sum, point, i) => sum + i * i, 0);
+
+  const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+  const intercept = (sumY - slope * sumX) / n;
+
+  return { slope, intercept };
+}
+
+// Función para predecir precio futuro
+function forecastPrice(closes, daysAhead = 7) {
+  if (closes.length < 10) return null;
+
+  const { slope, intercept } = linearRegression(closes);
+  const futureIndex = closes.length - 1 + daysAhead;
+  const forecast = slope * futureIndex + intercept;
+
+  const currentPrice = closes[closes.length - 1];
+  const changePercent = ((forecast - currentPrice) / currentPrice) * 100;
+
+  return {
+    forecastPrice: forecast,
+    changePercent: changePercent,
+    trend: changePercent > 5 ? 'BULLISH' : changePercent < -5 ? 'BEARISH' : 'NEUTRAL'
+  };
+}
 async function getTechnicalData() {
   try {
     // Simular datos del bot cuantitativo
@@ -29,6 +59,9 @@ async function getTechnicalData() {
         const m7 = closes.length >= 7 ? (closes[closes.length-1] - closes[closes.length-8]) / closes[closes.length-8] : 0;
         const m30 = closes.length >= 30 ? (closes[closes.length-1] - closes[0]) / closes[0] : 0;
 
+        // Pronóstico de precio a 7 días
+        const forecast7d = forecastPrice(closes, 7);
+
         results.push({
           symbol: market.replace('USDT', ''),
           price: currentPrice,
@@ -36,6 +69,7 @@ async function getTechnicalData() {
           rsi: rsi,
           momentum7d: m7,
           momentum30d: m30,
+          forecast7d: forecast7d,
           signal: (rsi < 40 && m7 > 0) ? 'BULLISH' : (rsi > 70 && m7 < 0) ? 'BEARISH' : 'NEUTRAL'
         });
 
@@ -146,6 +180,19 @@ function calculatePotentialScore(technical, sentiment, coingecko) {
     } else if (technical.momentum7d > 0.02) {
       score += 8;
       factors.push('Momentum 7d positivo');
+    }
+
+    // Pronóstico a futuro (20% del score técnico)
+    if (technical.forecast7d) {
+      if (technical.forecast7d.trend === 'BULLISH') {
+        score += 20;
+        factors.push(`Pronóstico 7d alcista (+${technical.forecast7d.changePercent.toFixed(1)}%)`);
+      } else if (technical.forecast7d.trend === 'BEARISH') {
+        score -= 10;
+        factors.push(`Pronóstico 7d bajista (${technical.forecast7d.changePercent.toFixed(1)}%)`);
+      } else {
+        factors.push(`Pronóstico 7d neutral (${technical.forecast7d.changePercent.toFixed(1)}%)`);
+      }
     }
 
     if (technical.priceChange > 0.03) {
@@ -280,7 +327,8 @@ async function predictTopCoins() {
 
   predictions.slice(0, 15).forEach((pred, index) => {
     const medal = index < 3 ? ['🥇', '🥈', '🥉'][index] : ` ${index + 1}.`;
-    console.log(`${medal} ${pred.symbol.padEnd(6)} | Score: ${pred.score.toFixed(1).padStart(5)} | ${pred.category.toUpperCase()}`);
+    const forecastStr = pred.technical?.forecast7d ? ` | Forecast: ${pred.technical.forecast7d.changePercent >= 0 ? '+' : ''}${pred.technical.forecast7d.changePercent.toFixed(1)}%` : '';
+    console.log(`${medal} ${pred.symbol.padEnd(6)} | Score: ${pred.score.toFixed(1).padStart(5)} | ${pred.category.toUpperCase()}${forecastStr}`);
     console.log(`   └─ Factores: ${pred.factors.join(' • ')}`);
 
     if (pred.coingecko) {
@@ -289,6 +337,9 @@ async function predictTopCoins() {
 
     if (pred.technical) {
       console.log(`   └─ RSI: ${pred.technical.rsi?.toFixed(1).padStart(5)} | Momentum 7d: ${(pred.technical.momentum7d * 100)?.toFixed(1).padStart(5)}%`);
+      if (pred.technical.forecast7d) {
+        console.log(`   └─ Pronóstico 7d: ${pred.technical.forecast7d.trend.padEnd(8)} | Cambio: ${pred.technical.forecast7d.changePercent.toFixed(1).padStart(5)}%`);
+      }
     }
 
     if (pred.sentiment) {
