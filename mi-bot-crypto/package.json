@@ -12,7 +12,13 @@
     "generate-report": "node generate_report.js",
     "regenerate-css": "node -e \"const fs = require('fs'); fs.unlinkSync('./styles.css'); require('./generate_report.js');\"",
     "open-report": "start prediction_report.html",
-    "full-report": "npm run predict && node predictor_single.js && npm run generate-report && npm run open-report"
+    "full-report": "npm run predict && node predictor_single.js && npm run generate-report && npm run open-report",
+    "market-report": "node reporte_html.js",
+    "market-report-scheduler": "node reporte_html_scheduler.js",
+    "open-market": "node -e \"require('child_process').exec('start reporte_mercado_*.html')\"",
+    "report": "node reporte_completo.js",
+    "report-scheduler": "npm run report && while true; do sleep 3600 && npm run report; done",
+    "open-report-complete": "node -e \"require('child_process').exec('start reporte_completo_*.html')\""
   },
   "dependencies": {
     "@coinbase/coinbase-sdk": "^0.25.0",

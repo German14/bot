@@ -51,52 +51,95 @@ function showPredictionHistory() {
     if (history.length >= 2) {
       console.log('📈 ANÁLISIS DE TENDENCIAS\n');
 
-      const recentPredictions = history.slice(0, Math.min(10, history.length)); // Últimas predicciones disponibles
-      const coinFrequency = {};
-      const scoreHistory = {};
+      // Obtener fechas
+      const now = new Date();
+      const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const weekAgoStart = new Date(todayStart.getTime() - 7 * 24 * 60 * 60 * 1000);
 
-      recentPredictions.forEach(entry => {
-        if (entry.result.success) {
-          const coinsToAnalyze = entry.result.allCoins || entry.result.top3 || [];
-
-          coinsToAnalyze.forEach(line => {
-            // Extraer símbolo y score de la línea
-            const match = line.match(/(?:🥇|🥈|🥉|\d+\.)\s+(\w+)\s+\|\s+Score:\s+(\d+\.\d+)/);
-            if (match) {
-              const symbol = match[1];
-              const score = parseFloat(match[2]);
-
-              // Contar frecuencia
-              coinFrequency[symbol] = (coinFrequency[symbol] || 0) + 1;
-
-              // Guardar historial de scores
-              if (!scoreHistory[symbol]) {
-                scoreHistory[symbol] = [];
-              }
-              scoreHistory[symbol].push(score);
-            }
-          });
-        }
+      // Filtrar predicciones por período
+      const todayPredictions = history.filter(entry => {
+        const predDate = new Date(entry.result.timestamp);
+        return predDate >= todayStart;
       });
 
-      console.log(`Monedas más frecuentes en predicciones (últimas ${recentPredictions.length}):`);
-      Object.entries(coinFrequency)
-        .sort(([,a], [,b]) => b - a)
-        .slice(0, 10)
-        .forEach(([coin, count]) => {
-          const avgScore = scoreHistory[coin].reduce((sum, score) => sum + score, 0) / scoreHistory[coin].length;
-          const maxScore = Math.max(...scoreHistory[coin]);
-          console.log(`   ${coin.padEnd(6)}: ${count} veces | Score promedio: ${avgScore.toFixed(1)} | Máximo: ${maxScore.toFixed(1)}`);
+      const weekPredictions = history.filter(entry => {
+        const predDate = new Date(entry.result.timestamp);
+        return predDate >= weekAgoStart;
+      });
+
+      // Función auxiliar para analizar predicciones
+      function analyzePredictions(predictions, label) {
+        if (predictions.length === 0) {
+          console.log(`\n${label}: Sin predicciones disponibles\n`);
+          return;
+        }
+
+        const coinFrequency = {};
+        const scoreHistory = {};
+
+        predictions.forEach(entry => {
+          if (entry.result.success) {
+            const coinsToAnalyze = entry.result.allCoins || entry.result.top3 || [];
+
+            coinsToAnalyze.forEach(line => {
+              const match = line.match(/(?:🥇|🥈|🥉|\d+\.)\s+(\w+)\s+\|\s+Score:\s+(\d+\.\d+)/);
+              if (match) {
+                const symbol = match[1];
+                const score = parseFloat(match[2]);
+
+                coinFrequency[symbol] = (coinFrequency[symbol] || 0) + 1;
+
+                if (!scoreHistory[symbol]) {
+                  scoreHistory[symbol] = [];
+                }
+                scoreHistory[symbol].push(score);
+              }
+            });
+          }
         });
 
-      console.log('\n📊 Estadísticas generales:');
-      const totalPredictions = recentPredictions.length;
-      const successfulPredictions = recentPredictions.filter(p => p.result.success).length;
-      const totalCoinsAnalyzed = Object.keys(coinFrequency).length;
+        console.log(`${label}:`);
+        console.log(`\n📊 Monedas más frecuentes (${predictions.length} predicciones):`);
+        Object.entries(coinFrequency)
+          .sort(([,a], [,b]) => b - a)
+          .slice(0, 10)
+          .forEach(([coin, count]) => {
+            const avgScore = scoreHistory[coin].reduce((sum, score) => sum + score, 0) / scoreHistory[coin].length;
+            const maxScore = Math.max(...scoreHistory[coin]);
+            console.log(`   ${coin.padEnd(6)}: ${count} veces | Score promedio: ${avgScore.toFixed(1)} | Máximo: ${maxScore.toFixed(1)}`);
+          });
 
-      console.log(`   • Predicciones exitosas: ${successfulPredictions}/${totalPredictions}`);
-      console.log(`   • Monedas analizadas: ${totalCoinsAnalyzed}`);
-      console.log(`   • Monedas únicas en top 10: ${Math.min(10, Object.keys(coinFrequency).length)}`);
+        console.log('\n📉 Monedas con MENOR potencial (más pierden):\n');
+        Object.entries(coinFrequency)
+          .sort(([coinA], [coinB]) => {
+            const avgA = scoreHistory[coinA].reduce((sum, score) => sum + score, 0) / scoreHistory[coinA].length;
+            const avgB = scoreHistory[coinB].reduce((sum, score) => sum + score, 0) / scoreHistory[coinB].length;
+            return avgA - avgB;
+          })
+          .slice(0, 10)
+          .forEach(([coin, count], index) => {
+            const avgScore = scoreHistory[coin].reduce((sum, score) => sum + score, 0) / scoreHistory[coin].length;
+            const minScore = Math.min(...scoreHistory[coin]);
+            const medal = index < 3 ? ['📉', '⬇️', '🔴'][index] : '  ';
+            console.log(`   ${medal} ${coin.padEnd(6)}: ${count} veces | Score promedio: ${avgScore.toFixed(1)} | Mínimo: ${minScore.toFixed(1)}`);
+          });
+
+        console.log('');
+      }
+
+      // Mostrar análisis de hoy
+      analyzePredictions(todayPredictions, '📅 HOY');
+
+      // Mostrar análisis de la semana
+      analyzePredictions(weekPredictions, '📆 ÚLTIMA SEMANA');
+
+      console.log('📊 Estadísticas generales:');
+      const totalPredictions = history.slice(0, Math.min(10, history.length)).length;
+      const successfulPredictions = history.slice(0, Math.min(10, history.length)).filter(p => p.result.success).length;
+
+      console.log(`   • Total de predicciones: ${history.length}`);
+      console.log(`   • Predicciones hoy: ${todayPredictions.length}`);
+      console.log(`   • Predicciones en la semana: ${weekPredictions.length}`);
     }
 
   } catch (error) {

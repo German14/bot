@@ -36,7 +36,7 @@ function forecastPrice(closes, daysAhead = 7) {
 async function getTechnicalData() {
   try {
     // Simular datos del bot cuantitativo
-    const markets = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "LINKUSDT", "AVAXUSDT", "ADAUSDT", "DOTUSDT"];
+    const markets = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "LINKUSDT", "AVAXUSDT", "ADAUSDT", "DOTUSDT", "MATICUSDT", "LTCUSDT", "BCHUSDT", "XLMUSDT", "XRPUSDT", "TRXUSDT", "ADAUSDT", "BNBUSDT"];
 
     const results = [];
     for (const market of markets) {
@@ -88,14 +88,43 @@ async function getTechnicalData() {
 // Función para obtener datos de CoinGecko (market cap, volumen)
 async function getCoinGeckoData() {
   try {
-    const response = await axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false');
-    return response.data.map(coin => ({
-      symbol: coin.symbol.toUpperCase(),
-      marketCap: coin.market_cap,
-      volume24h: coin.total_volume,
-      priceChange24h: coin.price_change_percentage_24h,
-      rank: coin.market_cap_rank
-    }));
+    let allCoins = [];
+    // Obtener top 300 monedas (3 páginas de 100 cada una) con delay para no exceder rate limits
+    for (let page = 1; page <= 3; page++) {
+      const response = await axios.get(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=${page}&sparkline=false`);
+      allCoins = allCoins.concat(response.data.map(coin => ({
+        symbol: coin.symbol.toUpperCase(),
+        marketCap: coin.market_cap,
+        volume24h: coin.total_volume,
+        priceChange24h: coin.price_change_percentage_24h,
+        rank: coin.market_cap_rank
+      })));
+      // Esperar 1 segundo entre solicitudes para evitar rate limits
+      if (page < 3) await new Promise(r => setTimeout(r, 1000));
+    }
+    
+    // Buscar monedas notables específicas
+    const notableCoinIds = ['story-2']; // Story (IP)
+    for (const coinId of notableCoinIds) {
+      try {
+        await new Promise(r => setTimeout(r, 500)); // Esperar antes de solicitud
+        const response = await axios.get(`https://api.coingecko.com/api/v3/coins/${coinId}?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false`);
+        const coin = response.data;
+        if (coin.market_data) {
+          allCoins.push({
+            symbol: coin.symbol.toUpperCase(),
+            marketCap: coin.market_data.market_cap?.usd,
+            volume24h: coin.market_data.total_volume?.usd,
+            priceChange24h: coin.market_data.price_change_percentage_24h,
+            rank: coin.market_cap_rank
+          });
+        }
+      } catch (e) {
+        // Moneda no encontrada, continuar
+      }
+    }
+    
+    return allCoins;
   } catch (error) {
     console.error('Error obteniendo datos de CoinGecko:', error.message);
     return [];
@@ -233,7 +262,16 @@ function calculatePotentialScore(technical, sentiment, coingecko) {
       factors.push(`Top 100 por market cap`);
     }
 
-    if (coingecko.priceChange24h > 5) {
+    if (coingecko.priceChange24h > 30) {
+      score += 40;
+      factors.push(`🚀 SUBIDA EXTREMA (${coingecko.priceChange24h.toFixed(1)}%!!)`);
+    } else if (coingecko.priceChange24h > 20) {
+      score += 25;
+      factors.push(`Subida 24h MASIVA (${coingecko.priceChange24h.toFixed(1)}%!)`);
+    } else if (coingecko.priceChange24h > 10) {
+      score += 15;
+      factors.push(`Subida 24h muy fuerte (${coingecko.priceChange24h.toFixed(1)}%)`);
+    } else if (coingecko.priceChange24h > 5) {
       score += 10;
       factors.push('Subida 24h >5%');
     } else if (coingecko.priceChange24h > 2) {

@@ -1,0 +1,286 @@
+{
+  "timestamp": "15/1/2026, 19:37:36",
+  "stats": {
+    "totalMonedas": 22,
+    "ganancias24h": 1,
+    "perdidas24h": 21,
+    "ganancias7d": 10,
+    "perdidas7d": 12,
+    "ratio24h": "1/21",
+    "ratio7d": "10/12",
+    "promedio24h": "-3.75",
+    "promedio7d": "0.26"
+  },
+  "topGains24h": [
+    {
+      "symbol": "TRX",
+      "change": 1.3455858221201156
+    }
+  ],
+  "topLosses24h": [
+    {
+      "symbol": "WIF",
+      "change": -7.2992700729926945
+    },
+    {
+      "symbol": "INJ",
+      "change": -6.658223267595447
+    },
+    {
+      "symbol": "GMT",
+      "change": -6.243441762854145
+    },
+    {
+      "symbol": "DYDX",
+      "change": -6.111645813282009
+    },
+    {
+      "symbol": "UNI",
+      "change": -5.844041541982042
+    }
+  ],
+  "allCoins": [
+    {
+      "symbol": "BTC",
+      "price": 96074,
+      "change24h": -0.9053779105448077,
+      "change7d": 5.993648809902068,
+      "high7d": 96951.78,
+      "low7d": 90504.7,
+      "volatility": 7.123475355423532,
+      "volume24h": 1730015212.7733066,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "ETH",
+      "price": 3301.01,
+      "change24h": -1.6068937560359071,
+      "change7d": 6.884147131200626,
+      "high7d": 3354.92,
+      "low7d": 3086.72,
+      "volatility": 8.688834750155515,
+      "volume24h": 1103877536.157499,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "SOL",
+      "price": 142.39,
+      "change24h": -2.9313518303906276,
+      "change7d": 4.721629771273066,
+      "high7d": 146.69,
+      "low7d": 135.84,
+      "volatility": 7.987338044758535,
+      "volume24h": 300095772.66091,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "LINK",
+      "price": 13.75,
+      "change24h": -2.5513819985825616,
+      "change7d": 4.642313546423131,
+      "high7d": 14.11,
+      "low7d": 13.08,
+      "volatility": 7.874617737003053,
+      "volume24h": 34065267.4675,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "AVAX",
+      "price": 13.82,
+      "change24h": -5.342465753424654,
+      "change7d": 0.2175489485134238,
+      "high7d": 14.75,
+      "low7d": 13.53,
+      "volatility": 9.016999260901706,
+      "volume24h": 28565017.0427,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "ADA",
+      "price": 0.3937,
+      "change24h": -4.972242336471158,
+      "change7d": 0.5876341338783773,
+      "high7d": 0.4218,
+      "low7d": 0.3862,
+      "volatility": 9.218021750388406,
+      "volume24h": 47081169.19002,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "DOT",
+      "price": 2.123,
+      "change24h": -4.627133872416881,
+      "change7d": 1.920307249159867,
+      "high7d": 2.282,
+      "low7d": 2.055,
+      "volatility": 11.04622871046228,
+      "volume24h": 11088402.97818,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "MATIC",
+      "price": 0.3794,
+      "change24h": -0.7326007326007246,
+      "change7d": -0.5243838489774519,
+      "high7d": 0.3822,
+      "low7d": 0.3659,
+      "volatility": 4.454769062585401,
+      "volume24h": 1690323.85073,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "LTC",
+      "price": 72.27,
+      "change24h": -5.738880918220954,
+      "change7d": -11.314271689777886,
+      "high7d": 81.49,
+      "low7d": 72.27,
+      "volatility": 12.757714127577142,
+      "volume24h": 100064185.60095,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "BCH",
+      "price": 584.5,
+      "change24h": -2.1593572145965814,
+      "change7d": -7.909248463841191,
+      "high7d": 649.1,
+      "low7d": 584.5,
+      "volatility": 11.052181351582552,
+      "volume24h": 110121654.3558,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "XLM",
+      "price": 0.2274,
+      "change24h": -3.684879288437108,
+      "change7d": -0.4378283712784593,
+      "high7d": 0.2386,
+      "low7d": 0.2193,
+      "volatility": 8.800729594163252,
+      "volume24h": 9821037.7435,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "XRP",
+      "price": 2.0741,
+      "change24h": -3.0522576423296313,
+      "change7d": -1.035404141616569,
+      "high7d": 2.1655,
+      "low7d": 2.054,
+      "volatility": 5.428432327166523,
+      "volume24h": 155749249.73648,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "TRX",
+      "price": 0.3088,
+      "change24h": 1.3455858221201156,
+      "change7d": 3.4852546916890152,
+      "high7d": 0.3088,
+      "low7d": 0.2984,
+      "volatility": 3.4852546916890152,
+      "volume24h": 66247773.5566,
+      "type": "GANANCIA"
+    },
+    {
+      "symbol": "BNB",
+      "price": 934.44,
+      "change24h": -1.4792244351429114,
+      "change7d": 4.190174609192074,
+      "high7d": 948.47,
+      "low7d": 896.86,
+      "volatility": 5.754521329973464,
+      "volume24h": 101570456.13258,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "DYDX",
+      "price": 0.1951,
+      "change24h": -6.111645813282009,
+      "change7d": -1.064908722109529,
+      "high7d": 0.2148,
+      "low7d": 0.1937,
+      "volatility": 10.893133711925646,
+      "volume24h": 1713495.332733,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "UNI",
+      "price": 5.349,
+      "change24h": -5.844041541982042,
+      "change7d": -2.158404975306374,
+      "high7d": 5.73,
+      "low7d": 5.349,
+      "volatility": 7.122826696578803,
+      "volume24h": 23263944.66971,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "OP",
+      "price": 0.341,
+      "change24h": -2.987197724039816,
+      "change7d": 8.219612821326574,
+      "high7d": 0.3669,
+      "low7d": 0.3088,
+      "volatility": 18.814766839378233,
+      "volume24h": 8966205.113537,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "ARB",
+      "price": 0.2073,
+      "change24h": -4.6458141674333016,
+      "change7d": -0.09638554216866409,
+      "high7d": 0.2214,
+      "low7d": 0.2008,
+      "volatility": 10.258964143426299,
+      "volume24h": 9083910.28245,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "SUI",
+      "price": 1.7747,
+      "change24h": -4.225580140313008,
+      "change7d": -2.042280730805329,
+      "high7d": 1.8813,
+      "low7d": 1.7624,
+      "volatility": 6.746482069904676,
+      "volume24h": 72727122.01363,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "INJ",
+      "price": 5.159,
+      "change24h": -6.658223267595447,
+      "change7d": -0.6547275178124362,
+      "high7d": 5.643,
+      "low7d": 5.026,
+      "volatility": 12.27616394747314,
+      "volume24h": 5659737.24625,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "WIF",
+      "price": 0.381,
+      "change24h": -7.2992700729926945,
+      "change7d": -1.8041237113402078,
+      "high7d": 0.42,
+      "low7d": 0.369,
+      "volatility": 13.821138211382111,
+      "volume24h": 9540969.76147,
+      "type": "PÉRDIDA"
+    },
+    {
+      "symbol": "GMT",
+      "price": 0.01787,
+      "change24h": -6.243441762854145,
+      "change7d": -6.194225721784779,
+      "high7d": 0.02208,
+      "low7d": 0.01787,
+      "volatility": 23.55903749300503,
+      "volume24h": 937302.699172,
+      "type": "PÉRDIDA"
+    }
+  ]
+}

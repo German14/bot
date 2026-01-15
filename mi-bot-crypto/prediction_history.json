@@ -1,5 +1,491 @@
 [
   {
+    "timestamp": "2026-01-15T18:22:04.934Z",
+    "result": {
+      "timestamp": "15/1/2026, 19:22:00",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.4%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.2%",
+        " 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +10.3%",
+        " 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +10.6%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.8%",
+        " 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +6.5%",
+        " 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.8%",
+        " 9. XLM    | Score:  25.0 | TECHNICAL | Forecast: +5.1%",
+        " 10. ADA    | Score:  25.0 | TECHNICAL | Forecast: +6.5%",
+        " 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.9%",
+        " 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +3.2%",
+        " 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.7%",
+        " 14. BNB    | Score:  18.0 | TECHNICAL | Forecast: +1.9%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.4%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.2%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.4%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (4.4%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   2.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.4%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.6%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.6%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.2%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.2%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.2%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +10.3%\n   └─ Factores: Pronóstico 7d alcista (+10.3%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.3%\n\n 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +10.6%\n   └─ Factores: Pronóstico 7d alcista (+10.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   0.4%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.6%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.8%\n   └─ Factores: Pronóstico 7d alcista (+8.8%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -2.4%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.8%\n\n 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +6.5%\n   └─ Factores: Pronóstico 7d alcista (+6.5%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.7%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.5%\n\n 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.8%\n   └─ Factores: Pronóstico 7d alcista (+10.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -7.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.8%\n\n 9. XLM    | Score:  25.0 | TECHNICAL | Forecast: +5.1%\n   └─ Factores: Pronóstico 7d alcista (+5.1%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.1%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.1%\n\n 10. ADA    | Score:  25.0 | TECHNICAL | Forecast: +6.5%\n   └─ Factores: Pronóstico 7d alcista (+6.5%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.7%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.5%\n\n 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.9%\n   └─ Factores: Pronóstico 7d alcista (+11.9%)\n   └─ RSI:   NaN | Momentum 7d: -11.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  11.9%\n\n 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +3.2%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.2%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.2%\n\n 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.7%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.7%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.7%\n\n 14. BNB    | Score:  18.0 | TECHNICAL | Forecast: +1.9%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (1.9%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.9%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T18:13:29.437Z",
+    "result": {
+      "timestamp": "15/1/2026, 19:13:25",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.9%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.4%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%",
+        " 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.6%",
+        " 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.6%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.3%",
+        " 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%",
+        " 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.4%",
+        " 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%",
+        " 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%",
+        " 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.2%",
+        " 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.6%",
+        " 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.6%",
+        " 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.5%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.9%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.4%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.9%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.9%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   3.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.9%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.4%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.4%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.4%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.6%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.6%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.6%\n   └─ Factores: Pronóstico 7d alcista (+9.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.6%\n\n 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.6%\n   └─ Factores: Pronóstico 7d alcista (+9.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.5%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.6%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.3%\n   └─ Factores: Pronóstico 7d alcista (+8.3%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.3%\n\n 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%\n   └─ Factores: Pronóstico 7d alcista (+5.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.8%\n\n 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.4%\n   └─ Factores: Pronóstico 7d alcista (+10.4%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -7.0%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.4%\n\n 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%\n   └─ Factores: Pronóstico 7d alcista (+5.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.8%\n\n 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.2%\n   └─ Factores: Pronóstico 7d alcista (+11.2%)\n   └─ RSI:   NaN | Momentum 7d: -10.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  11.2%\n\n 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.6%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (2.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.6%\n\n 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.6%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.6%\n\n 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.5%\n   └─ Factores: Pronóstico 7d neutral (4.5%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.4%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.5%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T18:11:01.002Z",
+    "result": {
+      "timestamp": "15/1/2026, 19:10:56",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.9%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.4%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%",
+        " 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.5%",
+        " 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.7%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.4%",
+        " 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%",
+        " 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.3%",
+        " 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%",
+        " 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%",
+        " 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.3%",
+        " 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.5%",
+        " 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%",
+        " 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.5%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.9%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.4%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.9%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.9%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   3.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.9%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.4%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.4%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.4%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.6%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.6%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.5%\n   └─ Factores: Pronóstico 7d alcista (+9.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   0.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.5%\n\n 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.7%\n   └─ Factores: Pronóstico 7d alcista (+9.7%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.4%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.7%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.4%\n   └─ Factores: Pronóstico 7d alcista (+8.4%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -2.0%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.4%\n\n 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%\n   └─ Factores: Pronóstico 7d alcista (+5.7%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.7%\n\n 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.3%\n   └─ Factores: Pronóstico 7d alcista (+10.3%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -6.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.3%\n\n 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%\n   └─ Factores: Pronóstico 7d alcista (+5.7%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.7%\n\n 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.3%\n   └─ Factores: Pronóstico 7d alcista (+11.3%)\n   └─ RSI:   NaN | Momentum 7d: -10.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  11.3%\n\n 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (2.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.5%\n\n 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.5%\n\n 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.5%\n   └─ Factores: Pronóstico 7d neutral (4.5%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.5%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T18:05:46.052Z",
+    "result": {
+      "timestamp": "15/1/2026, 19:05:41",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.0%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.3%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%",
+        " 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.6%",
+        " 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.6%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.3%",
+        " 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%",
+        " 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.2%",
+        " 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%",
+        " 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%",
+        " 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.4%",
+        " 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.5%",
+        " 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%",
+        " 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.5%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.0%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.3%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.0%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (4.0%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   3.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.0%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.3%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.3%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.3%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.6%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.6%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.6%\n   └─ Factores: Pronóstico 7d alcista (+9.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   0.1%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.6%\n\n 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.6%\n   └─ Factores: Pronóstico 7d alcista (+9.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.5%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.6%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.3%\n   └─ Factores: Pronóstico 7d alcista (+8.3%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.3%\n\n 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%\n   └─ Factores: Pronóstico 7d alcista (+5.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.8%\n\n 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.2%\n   └─ Factores: Pronóstico 7d alcista (+10.2%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -6.8%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.2%\n\n 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.8%\n   └─ Factores: Pronóstico 7d alcista (+5.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.8%\n\n 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.4%\n   └─ Factores: Pronóstico 7d alcista (+11.4%)\n   └─ RSI:   NaN | Momentum 7d: -10.7%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  11.4%\n\n 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (2.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.5%\n\n 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.5%\n\n 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.5%\n   └─ Factores: Pronóstico 7d neutral (4.5%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.5%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T18:02:19.531Z",
+    "result": {
+      "timestamp": "15/1/2026, 19:02:15",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.0%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.2%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%",
+        " 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.6%",
+        " 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.6%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.3%",
+        " 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%",
+        " 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.4%",
+        " 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%",
+        " 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%",
+        " 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.3%",
+        " 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.5%",
+        " 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%",
+        " 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.4%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.0%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.2%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +4.0%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (4.0%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   3.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.0%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.2%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.2%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.2%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.7%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.7%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.6%\n   └─ Factores: Pronóstico 7d alcista (+9.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.6%\n\n 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.6%\n   └─ Factores: Pronóstico 7d alcista (+9.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.5%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.6%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.3%\n   └─ Factores: Pronóstico 7d alcista (+8.3%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.3%\n\n 7. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%\n   └─ Factores: Pronóstico 7d alcista (+5.7%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.7%\n\n 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.4%\n   └─ Factores: Pronóstico 7d alcista (+10.4%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -6.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.4%\n\n 9. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.7%\n   └─ Factores: Pronóstico 7d alcista (+5.7%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.7%\n\n 10. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 11. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.3%\n   └─ Factores: Pronóstico 7d alcista (+11.3%)\n   └─ RSI:   NaN | Momentum 7d: -10.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  11.3%\n\n 12. LINK   | Score:  18.0 | TECHNICAL | Forecast: +2.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (2.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.5%\n\n 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.5%\n\n 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.4%\n   └─ Factores: Pronóstico 7d neutral (4.4%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.4%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.4%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:59:24.047Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:59:19",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.8%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.3%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%",
+        " 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.4%",
+        " 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.5%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.2%",
+        " 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +2.3%",
+        " 8. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.6%",
+        " 9. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.4%",
+        " 10. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.6%",
+        " 11. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%",
+        " 12. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.2%",
+        " 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%",
+        " 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.3%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.8%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.3%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.8%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.8%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   3.4%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.8%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +1.3%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.3%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.4%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.3%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.7%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.7%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +9.4%\n   └─ Factores: Pronóstico 7d alcista (+9.4%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   0.4%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.4%\n\n 5. DOT    | Score:  30.0 | TECHNICAL | Forecast: +9.5%\n   └─ Factores: Pronóstico 7d alcista (+9.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.5%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.2%\n   └─ Factores: Pronóstico 7d alcista (+8.2%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.8%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.2%\n\n 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +2.3%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (2.3%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.3%\n\n 8. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.6%\n   └─ Factores: Pronóstico 7d alcista (+5.6%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.4%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.6%\n\n 9. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.4%\n   └─ Factores: Pronóstico 7d alcista (+10.4%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -7.0%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.4%\n\n 10. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.6%\n   └─ Factores: Pronóstico 7d alcista (+5.6%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.4%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.6%\n\n 11. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.5%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.5%\n\n 12. LTC    | Score:  20.0 | TECHNICAL | Forecast: +11.2%\n   └─ Factores: Pronóstico 7d alcista (+11.2%)\n   └─ RSI:   NaN | Momentum 7d: -10.5%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  11.2%\n\n 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.5%\n\n 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +4.3%\n   └─ Factores: Pronóstico 7d neutral (4.3%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -0.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.3%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:57:01.068Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:56:56",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.4%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.9%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%",
+        " 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +9.0%",
+        " 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.9%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.0%",
+        " 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +2.0%",
+        " 8. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.2%",
+        " 9. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.0%",
+        " 10. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.2%",
+        " 11. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.3%",
+        " 12. LTC    | Score:  20.0 | TECHNICAL | Forecast: +10.6%",
+        " 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%",
+        " 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +3.9%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.4%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.9%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.4%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.4%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   3.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.4%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.9%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (0.9%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.9%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.8%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.4%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +9.0%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d alcista (+9.0%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   2.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.0%\n\n 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.9%\n   └─ Factores: Pronóstico 7d alcista (+8.9%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   0.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.9%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +8.0%\n   └─ Factores: Pronóstico 7d alcista (+8.0%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.0%\n\n 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +2.0%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (2.0%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.0%\n\n 8. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.2%\n   └─ Factores: Pronóstico 7d alcista (+5.2%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.2%\n\n 9. BCH    | Score:  25.0 | TECHNICAL | Forecast: +10.0%\n   └─ Factores: Pronóstico 7d alcista (+10.0%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -6.5%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.0%\n\n 10. ADA    | Score:  25.0 | TECHNICAL | Forecast: +5.2%\n   └─ Factores: Pronóstico 7d alcista (+5.2%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.2%\n\n 11. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.3%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.3%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.4%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.3%\n\n 12. LTC    | Score:  20.0 | TECHNICAL | Forecast: +10.6%\n   └─ Factores: Pronóstico 7d alcista (+10.6%)\n   └─ RSI:   NaN | Momentum 7d: -10.0%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.6%\n\n 13. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.5%\n\n 14. XLM    | Score:   5.0 | TECHNICAL | Forecast: +3.9%\n   └─ Factores: Pronóstico 7d neutral (3.9%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.9%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:52:51.844Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:52:47",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.7%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.9%",
+        " 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.6%",
+        " 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.6%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +7.7%",
+        " 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%",
+        " 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +9.6%",
+        " 9. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.1%",
+        " 10. LTC    | Score:  20.0 | TECHNICAL | Forecast: +10.5%",
+        " 11. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%",
+        " 12. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.9%",
+        " 13. XLM    | Score:   5.0 | TECHNICAL | Forecast: +3.7%",
+        " 14. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.8%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.7%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.9%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.2%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.2%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.7%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (0.7%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   7.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.7%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.9%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.9%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.9%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.6%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d alcista (+8.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   2.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.6%\n\n 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.6%\n   └─ Factores: Pronóstico 7d alcista (+8.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.6%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +7.7%\n   └─ Factores: Pronóstico 7d alcista (+7.7%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   7.7%\n\n 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.9%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.9%\n\n 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +9.6%\n   └─ Factores: Pronóstico 7d alcista (+9.6%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -6.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.6%\n\n 9. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.1%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.1%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.1%\n\n 10. LTC    | Score:  20.0 | TECHNICAL | Forecast: +10.5%\n   └─ Factores: Pronóstico 7d alcista (+10.5%)\n   └─ RSI:   NaN | Momentum 7d:  -9.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.5%\n\n 11. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.5%\n\n 12. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.9%\n   └─ Factores: Pronóstico 7d neutral (4.9%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   1.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.9%\n\n 13. XLM    | Score:   5.0 | TECHNICAL | Forecast: +3.7%\n   └─ Factores: Pronóstico 7d neutral (3.7%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.7%\n\n 14. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.8%\n   └─ Factores: Pronóstico 7d neutral (4.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   1.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.8%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:50:13.270Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:50:09",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.9%",
+        " 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.6%",
+        " 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.6%",
+        " 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +7.7%",
+        " 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.7%",
+        " 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +9.7%",
+        " 9. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.2%",
+        " 10. LTC    | Score:  20.0 | TECHNICAL | Forecast: +10.4%",
+        " 11. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.4%",
+        " 12. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.8%",
+        " 13. XLM    | Score:   5.0 | TECHNICAL | Forecast: +3.6%",
+        " 14. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.8%",
+        " 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.9%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.2%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.2%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (0.6%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   7.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.6%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.9%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.9%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.9%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.6%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d alcista (+8.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   2.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.6%\n\n 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.6%\n   └─ Factores: Pronóstico 7d alcista (+8.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.6%\n\n 6. XRP    | Score:  30.0 | TECHNICAL | Forecast: +7.7%\n   └─ Factores: Pronóstico 7d alcista (+7.7%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:  -1.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   7.7%\n\n 7. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.7%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.7%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.7%\n\n 8. BCH    | Score:  25.0 | TECHNICAL | Forecast: +9.7%\n   └─ Factores: Pronóstico 7d alcista (+9.7%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:  -6.3%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.7%\n\n 9. BNB    | Score:  25.0 | TECHNICAL | Forecast: +1.2%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.2%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.2%\n\n 10. LTC    | Score:  20.0 | TECHNICAL | Forecast: +10.4%\n   └─ Factores: Pronóstico 7d alcista (+10.4%)\n   └─ RSI:   NaN | Momentum 7d:  -9.8%\n   └─ Pronóstico 7d: BULLISH  | Cambio:  10.4%\n\n 11. TRX    | Score:  18.0 | TECHNICAL | Forecast: +0.4%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (0.4%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.4%\n\n 12. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.8%\n   └─ Factores: Pronóstico 7d neutral (4.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   1.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.8%\n\n 13. XLM    | Score:   5.0 | TECHNICAL | Forecast: +3.6%\n   └─ Factores: Pronóstico 7d neutral (3.6%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   0.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.6%\n\n 14. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.8%\n   └─ Factores: Pronóstico 7d neutral (4.8%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   1.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.8%\n\n 15. MATIC  | Score:   0.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Pronóstico 7d neutral (-0.8%)\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:43:51.516Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:43:49",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%",
+        " 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.5%",
+        " 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.7%",
+        " 6. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%",
+        " 7. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.9%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.2%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.2%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.2%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (0.6%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   7.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.6%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.8%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.5%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d alcista (+8.5%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   2.7%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.5%\n\n 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.7%\n   └─ Factores: Pronóstico 7d alcista (+8.7%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.7%\n\n 6. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.9%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.9%\n\n 7. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.9%\n   └─ Factores: Pronóstico 7d neutral (4.9%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   1.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.9%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:41:51.644Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:41:49",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.3%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%",
+        " 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.6%",
+        " 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.9%",
+        " 6. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%",
+        " 7. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.9%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.3%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.3%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.3%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   4.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.3%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (0.6%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   7.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.6%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.8%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.8%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.8%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.6%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d alcista (+8.6%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   2.7%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.6%\n\n 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.9%\n   └─ Factores: Pronóstico 7d alcista (+8.9%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.0%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.9%\n\n 6. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.9%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.9%\n\n 7. ADA    | Score:   5.0 | TECHNICAL | Forecast: +4.9%\n   └─ Factores: Pronóstico 7d neutral (4.9%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   1.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.9%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:38:17.069Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:38:14",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.4%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.7%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%",
+        " 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.8%",
+        " 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.8%",
+        " 6. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%",
+        " 7. ADA    | Score:   5.0 | TECHNICAL | Forecast: +5.0%"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.4%",
+        "🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.7%",
+        "🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  58.0 | TECHNICAL | Forecast: +3.4%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.4%) • Sentimiento muy positivo • Alta cobertura mediática • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   3.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.4%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  55.0 | TECHNICAL | Forecast: +0.7%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (0.7%) • Sentimiento muy positivo • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   7.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.7%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  45.0 | TECHNICAL | Forecast: -0.7%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.7%) • Sentimiento positivo • Cobertura mediática moderada • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   6.2%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.7%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. DOT    | Score:  38.0 | TECHNICAL | Forecast: +8.8%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d alcista (+8.8%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   2.4%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.8%\n\n 5. AVAX   | Score:  30.0 | TECHNICAL | Forecast: +8.8%\n   └─ Factores: Pronóstico 7d alcista (+8.8%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   1.1%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   8.8%\n\n 6. LINK   | Score:  25.0 | TECHNICAL | Forecast: +1.9%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (1.9%) • Trend 30d muy positivo\n   └─ RSI:   NaN | Momentum 7d:   5.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.9%\n\n 7. ADA    | Score:   5.0 | TECHNICAL | Forecast: +5.0%\n   └─ Factores: Pronóstico 7d neutral (5.0%) • Trend 30d positivo\n   └─ RSI:   NaN | Momentum 7d:   1.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   5.0%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-15T17:31:21.235Z",
+    "result": {
+      "timestamp": "15/1/2026, 18:31:18",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  77.0 | TECHNICAL | Forecast: +3.7%",
+        "🥈 ETH    | Score:  74.0 | TECHNICAL | Forecast: +0.8%",
+        "🥉 BTC    | Score:  60.0 | TECHNICAL | Forecast: -0.6%",
+        " 4. AVAX   | Score:  49.0 | TECHNICAL | Forecast: +9.2%",
+        " 5. DOT    | Score:  45.0 | TECHNICAL | Forecast: +9.2%",
+        " 6. LINK   | Score:  44.0 | TECHNICAL | Forecast: +2.3%",
+        " 7. ADA    | Score:  40.0 | TECHNICAL | Forecast: +5.4%",
+        " 8. RAIN   | Score:  25.0 | MARKET",
+        " 9. USDT   | Score:  23.0 | MARKET",
+        " 10. USDC   | Score:  23.0 | MARKET",
+        " 11. BSC-USD | Score:  23.0 | MARKET",
+        " 12. ZEC    | Score:  23.0 | MARKET",
+        " 13. SUI    | Score:  23.0 | MARKET",
+        " 14. LTC    | Score:  23.0 | MARKET",
+        " 15. USD1   | Score:  23.0 | MARKET"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  77.0 | TECHNICAL | Forecast: +3.7%",
+        "🥈 ETH    | Score:  74.0 | TECHNICAL | Forecast: +0.8%",
+        "🥉 BTC    | Score:  60.0 | TECHNICAL | Forecast: -0.6%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  77.0 | TECHNICAL | Forecast: +3.7%\n   └─ Factores: Momentum 7d positivo • Pronóstico 7d neutral (3.7%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #6 | 24h Change: -2.87%\n   └─ RSI:   NaN | Momentum 7d:   3.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.7%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 ETH    | Score:  74.0 | TECHNICAL | Forecast: +0.8%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (0.8%) • Sentimiento muy positivo • Top 2 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #2 | 24h Change: -1.56%\n   └─ RSI:   NaN | Momentum 7d:   7.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.8%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n🥉 BTC    | Score:  60.0 | TECHNICAL | Forecast: -0.6%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (-0.6%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap • Trend 30d muy positivo\n   └─ Market Cap Rank: #1 | 24h Change: -1.10%\n   └─ RSI:   NaN | Momentum 7d:   6.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:  -0.6%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 4. AVAX   | Score:  49.0 | TECHNICAL | Forecast: +9.2%\n   └─ Factores: Pronóstico 7d alcista (+9.2%) • Top 30 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #30 | 24h Change: -5.68%\n   └─ RSI:   NaN | Momentum 7d:   0.6%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.2%\n\n 5. DOT    | Score:  45.0 | TECHNICAL | Forecast: +9.2%\n   └─ Factores: Pronóstico 7d alcista (+9.2%) • Top 44 por market cap • Trend 30d muy positivo\n   └─ Market Cap Rank: #44 | 24h Change: -5.07%\n   └─ RSI:   NaN | Momentum 7d:   2.0%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   9.2%\n\n 6. LINK   | Score:  44.0 | TECHNICAL | Forecast: +2.3%\n   └─ Factores: Momentum 7d fuerte (+5%+) • Pronóstico 7d neutral (2.3%) • Top 20 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #20 | 24h Change: -3.14%\n   └─ RSI:   NaN | Momentum 7d:   5.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.3%\n\n 7. ADA    | Score:  40.0 | TECHNICAL | Forecast: +5.4%\n   └─ Factores: Pronóstico 7d alcista (+5.4%) • Top 12 por market cap • Trend 30d positivo\n   └─ Market Cap Rank: #12 | 24h Change: -5.62%\n   └─ RSI:   NaN | Momentum 7d:   0.7%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   5.4%\n\n 8. RAIN   | Score:  25.0 | MARKET\n   └─ Factores: Top 47 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #47 | 24h Change: 7.90%\n\n 9. USDT   | Score:  23.0 | MARKET\n   └─ Factores: Top 3 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #3 | 24h Change: -0.04%\n\n 10. USDC   | Score:  23.0 | MARKET\n   └─ Factores: Top 7 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #7 | 24h Change: 0.01%\n\n 11. BSC-USD | Score:  23.0 | MARKET\n   └─ Factores: Top 22 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #22 | 24h Change: -0.02%\n\n 12. ZEC    | Score:  23.0 | MARKET\n   └─ Factores: Top 27 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #27 | 24h Change: -3.03%\n\n 13. SUI    | Score:  23.0 | MARKET\n   └─ Factores: Top 28 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #28 | 24h Change: -4.94%\n\n 14. LTC    | Score:  23.0 | MARKET\n   └─ Factores: Top 32 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #32 | 24h Change: -7.64%\n\n 15. USD1   | Score:  23.0 | MARKET\n   └─ Factores: Top 45 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #45 | 24h Change: -0.03%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-13T15:26:35.716Z",
+    "result": {
+      "timestamp": "13/1/2026, 16:26:33",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +1.2%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.4%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +3.1%",
+        " 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +4.0%",
+        " 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.4%",
+        " 6. NEAR   | Score:  26.0 | MARKET",
+        " 7. PUMP   | Score:  26.0 | MARKET",
+        " 8. IP     | Score:  26.0 | MARKET",
+        " 9. XMR    | Score:  25.0 | MARKET",
+        " 10. CC     | Score:  25.0 | MARKET",
+        " 11. WLFI   | Score:  25.0 | MARKET",
+        " 12. DOGE   | Score:  24.0 | MARKET",
+        " 13. UNI    | Score:  24.0 | MARKET",
+        " 14. USDT   | Score:  23.0 | MARKET",
+        " 15. USDC   | Score:  23.0 | MARKET"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +1.2%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.4%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +3.1%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +1.2%\n   └─ Factores: Pronóstico 7d neutral (1.2%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #6 | 24h Change: 0.98%\n   └─ RSI:   NaN | Momentum 7d:   0.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.2%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.4%\n   └─ Factores: Pronóstico 7d alcista (+6.4%) • Movimiento reciente alcista • Top 30 por market cap • Subida 24h >2% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #30 | 24h Change: 2.51%\n   └─ RSI:   NaN | Momentum 7d:  -4.2%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.4%\n\n🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +3.1%\n   └─ Factores: Pronóstico 7d neutral (3.1%) • Sentimiento muy positivo • Top 2 por market cap • Volumen de trading saludable • Trend 30d positivo\n   └─ Market Cap Rank: #2 | 24h Change: 0.94%\n   └─ RSI:   NaN | Momentum 7d:  -4.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.1%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +4.0%\n   └─ Factores: Pronóstico 7d neutral (4.0%) • Movimiento reciente alcista • Top 43 por market cap • Subida 24h >5% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #43 | 24h Change: 6.26%\n   └─ RSI:   NaN | Momentum 7d:  -2.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   4.0%\n\n 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.4%\n   └─ Factores: Pronóstico 7d neutral (1.4%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap • Trend 30d positivo\n   └─ Market Cap Rank: #1 | 24h Change: 1.19%\n   └─ RSI:   NaN | Momentum 7d:  -1.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.4%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 6. NEAR   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #56 | 24h Change: 6.31%\n\n 7. PUMP   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #73 | 24h Change: 8.12%\n\n 8. IP     | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #84 | 24h Change: 28.99%\n\n 9. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 13 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #13 | 24h Change: 21.04%\n\n 10. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 7.54%\n\n 11. WLFI   | Score:  25.0 | MARKET\n   └─ Factores: Top 36 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #36 | 24h Change: 8.19%\n\n 12. DOGE   | Score:  24.0 | MARKET\n   └─ Factores: Top 10 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #10 | 24h Change: 2.44%\n\n 13. UNI    | Score:  24.0 | MARKET\n   └─ Factores: Top 45 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #45 | 24h Change: 2.33%\n\n 14. USDT   | Score:  23.0 | MARKET\n   └─ Factores: Top 3 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #3 | 24h Change: 0.02%\n\n 15. USDC   | Score:  23.0 | MARKET\n   └─ Factores: Top 7 por market cap • Alto volumen de trading\n   └─ Market Cap Rank: #7 | 24h Change: -0.04%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-13T15:22:44.182Z",
+    "result": {
+      "timestamp": "13/1/2026, 16:22:42",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.9%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.0%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%",
+        " 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +3.4%",
+        " 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.2%",
+        " 6. ADA    | Score:  30.0 | TECHNICAL | Forecast: +1.3%",
+        " 7. AAVE   | Score:  26.0 | MARKET",
+        " 8. NEAR   | Score:  26.0 | MARKET",
+        " 9. PUMP   | Score:  26.0 | MARKET",
+        " 10. IP     | Score:  26.0 | MARKET",
+        " 11. XMR    | Score:  25.0 | MARKET",
+        " 12. CC     | Score:  25.0 | MARKET",
+        " 13. WLFI   | Score:  25.0 | MARKET",
+        " 14. DOGE   | Score:  24.0 | MARKET",
+        " 15. UNI    | Score:  24.0 | MARKET"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.9%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.0%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.9%\n   └─ Factores: Pronóstico 7d neutral (0.9%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #6 | 24h Change: 1.15%\n   └─ RSI:   NaN | Momentum 7d:   0.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.9%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.0%\n   └─ Factores: Pronóstico 7d alcista (+6.0%) • Movimiento reciente alcista • Top 30 por market cap • Subida 24h >2% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #30 | 24h Change: 2.96%\n   └─ RSI:   NaN | Momentum 7d:  -3.8%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.0%\n\n🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%\n   └─ Factores: Pronóstico 7d neutral (2.9%) • Sentimiento muy positivo • Top 2 por market cap • Volumen de trading saludable • Trend 30d positivo\n   └─ Market Cap Rank: #2 | 24h Change: 1.05%\n   └─ RSI:   NaN | Momentum 7d:  -4.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.9%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +3.4%\n   └─ Factores: Pronóstico 7d neutral (3.4%) • Movimiento reciente alcista • Top 43 por market cap • Subida 24h >5% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #43 | 24h Change: 6.89%\n   └─ RSI:   NaN | Momentum 7d:  -2.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.4%\n\n 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.2%\n   └─ Factores: Pronóstico 7d neutral (1.2%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap • Trend 30d positivo\n   └─ Market Cap Rank: #1 | 24h Change: 1.43%\n   └─ RSI:   NaN | Momentum 7d:  -1.4%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.2%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 6. ADA    | Score:  30.0 | TECHNICAL | Forecast: +1.3%\n   └─ Factores: Pronóstico 7d neutral (1.3%) • Movimiento reciente alcista • Top 12 por market cap • Subida 24h >2%\n   └─ Market Cap Rank: #12 | 24h Change: 2.21%\n   └─ RSI:   NaN | Momentum 7d:  -5.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.3%\n\n 7. AAVE   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #51 | 24h Change: 5.37%\n\n 8. NEAR   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #56 | 24h Change: 6.97%\n\n 9. PUMP   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #73 | 24h Change: 8.85%\n\n 10. IP     | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #85 | 24h Change: 28.96%\n\n 11. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 14 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #14 | 24h Change: 21.65%\n\n 12. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 7.98%\n\n 13. WLFI   | Score:  25.0 | MARKET\n   └─ Factores: Top 36 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #36 | 24h Change: 8.20%\n\n 14. DOGE   | Score:  24.0 | MARKET\n   └─ Factores: Top 10 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #10 | 24h Change: 2.71%\n\n 15. UNI    | Score:  24.0 | MARKET\n   └─ Factores: Top 45 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #45 | 24h Change: 2.56%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-13T15:21:37.142Z",
+    "result": {
+      "timestamp": "13/1/2026, 16:21:34",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.9%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.1%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%",
+        " 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +3.5%",
+        " 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.1%",
+        " 6. ADA    | Score:  30.0 | TECHNICAL | Forecast: +1.3%",
+        " 7. AAVE   | Score:  26.0 | MARKET",
+        " 8. NEAR   | Score:  26.0 | MARKET",
+        " 9. PUMP   | Score:  26.0 | MARKET",
+        " 10. IP     | Score:  26.0 | MARKET",
+        " 11. XMR    | Score:  25.0 | MARKET",
+        " 12. CC     | Score:  25.0 | MARKET",
+        " 13. WLFI   | Score:  25.0 | MARKET",
+        " 14. DOGE   | Score:  24.0 | MARKET",
+        " 15. UNI    | Score:  24.0 | MARKET"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.9%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.1%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.9%\n   └─ Factores: Pronóstico 7d neutral (0.9%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #6 | 24h Change: 1.20%\n   └─ RSI:   NaN | Momentum 7d:   0.5%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.9%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.1%\n   └─ Factores: Pronóstico 7d alcista (+6.1%) • Movimiento reciente alcista • Top 30 por market cap • Subida 24h >2% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #30 | 24h Change: 2.94%\n   └─ RSI:   NaN | Momentum 7d:  -3.9%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.1%\n\n🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%\n   └─ Factores: Pronóstico 7d neutral (2.9%) • Sentimiento muy positivo • Top 2 por market cap • Volumen de trading saludable • Trend 30d positivo\n   └─ Market Cap Rank: #2 | 24h Change: 1.55%\n   └─ RSI:   NaN | Momentum 7d:  -4.7%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.9%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +3.5%\n   └─ Factores: Pronóstico 7d neutral (3.5%) • Movimiento reciente alcista • Top 43 por market cap • Subida 24h >5% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #43 | 24h Change: 6.92%\n   └─ RSI:   NaN | Momentum 7d:  -2.1%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.5%\n\n 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.1%\n   └─ Factores: Pronóstico 7d neutral (1.1%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap • Trend 30d positivo\n   └─ Market Cap Rank: #1 | 24h Change: 1.95%\n   └─ RSI:   NaN | Momentum 7d:  -1.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.1%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 6. ADA    | Score:  30.0 | TECHNICAL | Forecast: +1.3%\n   └─ Factores: Pronóstico 7d neutral (1.3%) • Movimiento reciente alcista • Top 12 por market cap • Subida 24h >2%\n   └─ Market Cap Rank: #12 | 24h Change: 2.46%\n   └─ RSI:   NaN | Momentum 7d:  -4.9%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.3%\n\n 7. AAVE   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #51 | 24h Change: 5.40%\n\n 8. NEAR   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #56 | 24h Change: 6.94%\n\n 9. PUMP   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #73 | 24h Change: 9.35%\n\n 10. IP     | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #85 | 24h Change: 27.20%\n\n 11. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 14 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #14 | 24h Change: 21.99%\n\n 12. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 7.88%\n\n 13. WLFI   | Score:  25.0 | MARKET\n   └─ Factores: Top 36 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #36 | 24h Change: 8.13%\n\n 14. DOGE   | Score:  24.0 | MARKET\n   └─ Factores: Top 10 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #10 | 24h Change: 2.70%\n\n 15. UNI    | Score:  24.0 | MARKET\n   └─ Factores: Top 45 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #45 | 24h Change: 2.56%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
+    "timestamp": "2026-01-13T15:21:02.101Z",
+    "result": {
+      "timestamp": "13/1/2026, 16:20:59",
+      "success": true,
+      "allCoins": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.8%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.0%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%",
+        " 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +3.4%",
+        " 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.1%",
+        " 6. ADA    | Score:  30.0 | TECHNICAL | Forecast: +1.2%",
+        " 7. AAVE   | Score:  26.0 | MARKET",
+        " 8. NEAR   | Score:  26.0 | MARKET",
+        " 9. PUMP   | Score:  26.0 | MARKET",
+        " 10. IP     | Score:  26.0 | MARKET",
+        " 11. XMR    | Score:  25.0 | MARKET",
+        " 12. CC     | Score:  25.0 | MARKET",
+        " 13. WLFI   | Score:  25.0 | MARKET",
+        " 14. DOGE   | Score:  24.0 | MARKET",
+        " 15. UNI    | Score:  24.0 | MARKET"
+      ],
+      "top3": [
+        "🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.8%",
+        "🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.0%",
+        "🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%"
+      ],
+      "fullOutput": "🔮 PREDICTOR DE MONEDAS CON POTENCIAL DE SUBIDA\n\n📊 Obteniendo datos técnicos de Binance...\n📰 Analizando sentimientos de noticias (datos cacheados)...\n   └─ Usando datos de 7 monedas del historial\n💰 Obteniendo datos de mercado de CoinGecko...\n🧮 Calculando scores de potencial...\n\n🏆 TOP 15 MONEDAS CON MAYOR POTENCIAL DE SUBIDA:\n\n🥇 SOL    | Score:  69.0 | TECHNICAL | Forecast: +0.8%\n   └─ Factores: Pronóstico 7d neutral (0.8%) • Sentimiento muy positivo • Alta cobertura mediática • Top 6 por market cap • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #6 | 24h Change: 1.20%\n   └─ RSI:   NaN | Momentum 7d:   0.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   0.8%\n   └─ Sentimiento: BULLISH  | Menciones: 31\n\n🥈 AVAX   | Score:  64.0 | TECHNICAL | Forecast: +6.0%\n   └─ Factores: Pronóstico 7d alcista (+6.0%) • Movimiento reciente alcista • Top 30 por market cap • Subida 24h >2% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #30 | 24h Change: 2.94%\n   └─ RSI:   NaN | Momentum 7d:  -3.8%\n   └─ Pronóstico 7d: BULLISH  | Cambio:   6.0%\n\n🥉 ETH    | Score:  54.0 | TECHNICAL | Forecast: +2.9%\n   └─ Factores: Pronóstico 7d neutral (2.9%) • Sentimiento muy positivo • Top 2 por market cap • Volumen de trading saludable • Trend 30d positivo\n   └─ Market Cap Rank: #2 | 24h Change: 1.55%\n   └─ RSI:   NaN | Momentum 7d:  -4.6%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   2.9%\n   └─ Sentimiento: BULLISH  | Menciones: 9\n\n 4. DOT    | Score:  49.0 | TECHNICAL | Forecast: +3.4%\n   └─ Factores: Pronóstico 7d neutral (3.4%) • Movimiento reciente alcista • Top 43 por market cap • Subida 24h >5% • Volumen de trading saludable • Trend 30d muy positivo\n   └─ Market Cap Rank: #43 | 24h Change: 6.92%\n   └─ RSI:   NaN | Momentum 7d:  -2.0%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   3.4%\n\n 5. BTC    | Score:  40.0 | TECHNICAL | Forecast: +1.1%\n   └─ Factores: Pronóstico 7d neutral (1.1%) • Sentimiento positivo • Cobertura mediática moderada • Top 1 por market cap • Trend 30d positivo\n   └─ Market Cap Rank: #1 | 24h Change: 1.95%\n   └─ RSI:   NaN | Momentum 7d:  -1.3%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.1%\n   └─ Sentimiento: BEARISH  | Menciones: 11\n\n 6. ADA    | Score:  30.0 | TECHNICAL | Forecast: +1.2%\n   └─ Factores: Pronóstico 7d neutral (1.2%) • Movimiento reciente alcista • Top 12 por market cap • Subida 24h >2%\n   └─ Market Cap Rank: #12 | 24h Change: 2.46%\n   └─ RSI:   NaN | Momentum 7d:  -4.8%\n   └─ Pronóstico 7d: NEUTRAL  | Cambio:   1.2%\n\n 7. AAVE   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #51 | 24h Change: 5.40%\n\n 8. NEAR   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #56 | 24h Change: 6.94%\n\n 9. PUMP   | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #73 | 24h Change: 9.35%\n\n 10. IP     | Score:  26.0 | MARKET\n   └─ Factores: Top 100 por market cap • Subida 24h >5% • Alto volumen de trading\n   └─ Market Cap Rank: #85 | 24h Change: 27.20%\n\n 11. XMR    | Score:  25.0 | MARKET\n   └─ Factores: Top 14 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #14 | 24h Change: 21.99%\n\n 12. CC     | Score:  25.0 | MARKET\n   └─ Factores: Top 33 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #33 | 24h Change: 7.88%\n\n 13. WLFI   | Score:  25.0 | MARKET\n   └─ Factores: Top 36 por market cap • Subida 24h >5%\n   └─ Market Cap Rank: #36 | 24h Change: 8.13%\n\n 14. DOGE   | Score:  24.0 | MARKET\n   └─ Factores: Top 10 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #10 | 24h Change: 2.70%\n\n 15. UNI    | Score:  24.0 | MARKET\n   └─ Factores: Top 45 por market cap • Subida 24h >2% • Volumen de trading saludable\n   └─ Market Cap Rank: #45 | 24h Change: 2.56%\n\n💡 Recomendaciones:\n   • Monitorea las top 3 monedas de cerca\n   • Combina con análisis fundamental antes de invertir\n   • Considera diversificar en diferentes categorías\n   • Revisa volumen de trading antes de entrar\n\n⚠️  IMPORTANTE: Esto no es asesoramiento financiero.\n   El mercado crypto es altamente volátil y riesgoso.\n   Siempre investiga y nunca inviertas más de lo que puedes perder.\n"
+    }
+  },
+  {
     "timestamp": "2026-01-11T22:55:52.781Z",
     "result": {
       "timestamp": "11/1/2026, 23:55:50",

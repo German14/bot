@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Mercado Crypto - 15/1/2026, 19:37:36</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .header p { font-size: 1.1em; opacity: 0.9; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+            text-align: center;
+        }
+        .stat-card.gains { border-left-color: #28a745; }
+        .stat-card.losses { border-left-color: #dc3545; }
+        .stat-card h3 { font-size: 0.85em; color: #666; text-transform: uppercase; margin-bottom: 8px; }
+        .stat-value { font-size: 1.8em; font-weight: bold; }
+        .stat-value.positive { color: #28a745; }
+        .stat-value.negative { color: #dc3545; }
+        .content { padding: 25px; }
+        .section { margin-bottom: 35px; }
+        .section-title { font-size: 1.6em; color: #333; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 3px solid #667eea; }
+        .tables-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 15px; }
+        .table-wrapper { background: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); overflow: hidden; }
+        .table-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px; font-weight: bold; text-align: center; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #f8f9fa; padding: 10px; text-align: left; font-weight: 600; color: #333; border-bottom: 2px solid #dee2e6; }
+        td { padding: 10px; border-bottom: 1px solid #dee2e6; }
+        tr:hover { background: #f8f9fa; }
+        .symbol { font-weight: bold; color: #667eea; }
+        .price { font-family: 'Courier New', monospace; font-weight: 500; }
+        .change { font-weight: bold; text-align: right; }
+        .change.positive { color: #28a745; background: #d4edda; border-radius: 5px; padding: 3px 8px; }
+        .change.negative { color: #dc3545; background: #f8d7da; border-radius: 5px; padding: 3px 8px; }
+        .rank { text-align: center; font-weight: bold; color: #667eea; background: #f0f3ff; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; }
+        .footer { background: #f8f9fa; padding: 20px 30px; text-align: center; color: #666; border-top: 1px solid #dee2e6; font-size: 0.9em; }
+        .total-row { background: #f0f3ff; font-weight: bold; border-top: 2px solid #667eea; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
+        .badge-gain { background: #d4edda; color: #155724; }
+        .badge-loss { background: #f8d7da; color: #721c24; }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.8em; }
+            .stats-grid { grid-template-columns: 1fr; gap: 10px; }
+            .tables-grid { grid-template-columns: 1fr; }
+            table { font-size: 0.9em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Reporte Completo de Mercado Crypto</h1>
+            <p>15/1/2026, 19:37:36 | Monitoreo de 22 activos</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card gains">
+                <h3>💹 Ganancias 24h</h3>
+                <div class="stat-value positive">1</div>
+                <small>+1.35%</small>
+            </div>
+            <div class="stat-card losses">
+                <h3>📉 Pérdidas 24h</h3>
+                <div class="stat-value negative">21</div>
+                <small>-83.80%</small>
+            </div>
+            <div class="stat-card gains">
+                <h3>💹 Ganancias 7d</h3>
+                <div class="stat-value positive">10</div>
+                <small>+40.86%</small>
+            </div>
+            <div class="stat-card losses">
+                <h3>📉 Pérdidas 7d</h3>
+                <div class="stat-value negative">12</div>
+                <small>-35.24%</small>
+            </div>
+            <div class="stat-card">
+                <h3>📊 Ratio 24h</h3>
+                <div class="stat-value">1/21</div>
+                <small>Ganancias/Pérdidas</small>
+            </div>
+            <div class="stat-card">
+                <h3>📊 Ratio 7d</h3>
+                <div class="stat-value">10/12</div>
+                <small>Ganancias/Pérdidas</small>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">🚀 Monedas en SUBIDA</h2>
+                <div class="tables-grid">
+                    <div class="table-wrapper">
+                        <div class="table-header">📈 Ganancias Últimas 24h (1)</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 40px;">#</th>
+                                    <th>Moneda</th>
+                                    <th>Precio</th>
+                                    <th>Cambio 24h</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                    <tr>
+                                        <td><span class="rank">🥇</span></td>
+                                        <td><span class="symbol">TRX</span></td>
+                                        <td><span class="price">$0.3088</span></td>
+                                        <td><span class="change positive">+1.35%</span></td>
+                                    </tr>
+
+                                <tr class="total-row">
+                                    <td colspan="2">TOTAL</td>
+                                    <td></td>
+                                    <td><span class="change positive">+1.35%</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="table-wrapper">
+                        <div class="table-header">📈 Ganancias Últimos 7 Días (10)</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 40px;">#</th>
+                                    <th>Moneda</th>
+                                    <th>Precio</th>
+                                    <th>Cambio 7d</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                    <tr>
+                                        <td><span class="rank">🥇</span></td>
+                                        <td><span class="symbol">OP</span></td>
+                                        <td><span class="price">$0.3410</span></td>
+                                        <td><span class="change positive">+8.22%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">🥈</span></td>
+                                        <td><span class="symbol">ETH</span></td>
+                                        <td><span class="price">$3301.0100</span></td>
+                                        <td><span class="change positive">+6.88%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">🥉</span></td>
+                                        <td><span class="symbol">BTC</span></td>
+                                        <td><span class="price">$96074.0000</span></td>
+                                        <td><span class="change positive">+5.99%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">4</span></td>
+                                        <td><span class="symbol">SOL</span></td>
+                                        <td><span class="price">$142.3900</span></td>
+                                        <td><span class="change positive">+4.72%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">5</span></td>
+                                        <td><span class="symbol">LINK</span></td>
+                                        <td><span class="price">$13.7500</span></td>
+                                        <td><span class="change positive">+4.64%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">6</span></td>
+                                        <td><span class="symbol">BNB</span></td>
+                                        <td><span class="price">$934.4400</span></td>
+                                        <td><span class="change positive">+4.19%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">7</span></td>
+                                        <td><span class="symbol">TRX</span></td>
+                                        <td><span class="price">$0.3088</span></td>
+                                        <td><span class="change positive">+3.49%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">8</span></td>
+                                        <td><span class="symbol">DOT</span></td>
+                                        <td><span class="price">$2.1230</span></td>
+                                        <td><span class="change positive">+1.92%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">9</span></td>
+                                        <td><span class="symbol">ADA</span></td>
+                                        <td><span class="price">$0.3937</span></td>
+                                        <td><span class="change positive">+0.59%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">10</span></td>
+                                        <td><span class="symbol">AVAX</span></td>
+                                        <td><span class="price">$13.8200</span></td>
+                                        <td><span class="change positive">+0.22%</span></td>
+                                    </tr>
+
+                                <tr class="total-row">
+                                    <td colspan="2">TOTAL</td>
+                                    <td></td>
+                                    <td><span class="change positive">+40.86%</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">📉 Monedas en PÉRDIDA</h2>
+                <div class="tables-grid">
+                    <div class="table-wrapper">
+                        <div class="table-header">📉 Pérdidas Últimas 24h (21)</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 40px;">#</th>
+                                    <th>Moneda</th>
+                                    <th>Precio</th>
+                                    <th>Cambio 24h</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                    <tr>
+                                        <td><span class="rank">1</span></td>
+                                        <td><span class="symbol">WIF</span></td>
+                                        <td><span class="price">$0.3810</span></td>
+                                        <td><span class="change negative">-7.30%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">2</span></td>
+                                        <td><span class="symbol">INJ</span></td>
+                                        <td><span class="price">$5.1590</span></td>
+                                        <td><span class="change negative">-6.66%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">3</span></td>
+                                        <td><span class="symbol">GMT</span></td>
+                                        <td><span class="price">$0.0179</span></td>
+                                        <td><span class="change negative">-6.24%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">4</span></td>
+                                        <td><span class="symbol">DYDX</span></td>
+                                        <td><span class="price">$0.1951</span></td>
+                                        <td><span class="change negative">-6.11%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">5</span></td>
+                                        <td><span class="symbol">UNI</span></td>
+                                        <td><span class="price">$5.3490</span></td>
+                                        <td><span class="change negative">-5.84%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">6</span></td>
+                                        <td><span class="symbol">LTC</span></td>
+                                        <td><span class="price">$72.2700</span></td>
+                                        <td><span class="change negative">-5.74%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">7</span></td>
+                                        <td><span class="symbol">AVAX</span></td>
+                                        <td><span class="price">$13.8200</span></td>
+                                        <td><span class="change negative">-5.34%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">8</span></td>
+                                        <td><span class="symbol">ADA</span></td>
+                                        <td><span class="price">$0.3937</span></td>
+                                        <td><span class="change negative">-4.97%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">9</span></td>
+                                        <td><span class="symbol">ARB</span></td>
+                                        <td><span class="price">$0.2073</span></td>
+                                        <td><span class="change negative">-4.65%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">10</span></td>
+                                        <td><span class="symbol">DOT</span></td>
+                                        <td><span class="price">$2.1230</span></td>
+                                        <td><span class="change negative">-4.63%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">11</span></td>
+                                        <td><span class="symbol">SUI</span></td>
+                                        <td><span class="price">$1.7747</span></td>
+                                        <td><span class="change negative">-4.23%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">12</span></td>
+                                        <td><span class="symbol">XLM</span></td>
+                                        <td><span class="price">$0.2274</span></td>
+                                        <td><span class="change negative">-3.68%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">13</span></td>
+                                        <td><span class="symbol">XRP</span></td>
+                                        <td><span class="price">$2.0741</span></td>
+                                        <td><span class="change negative">-3.05%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">14</span></td>
+                                        <td><span class="symbol">OP</span></td>
+                                        <td><span class="price">$0.3410</span></td>
+                                        <td><span class="change negative">-2.99%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">15</span></td>
+                                        <td><span class="symbol">SOL</span></td>
+                                        <td><span class="price">$142.3900</span></td>
+                                        <td><span class="change negative">-2.93%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">16</span></td>
+                                        <td><span class="symbol">LINK</span></td>
+                                        <td><span class="price">$13.7500</span></td>
+                                        <td><span class="change negative">-2.55%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">17</span></td>
+                                        <td><span class="symbol">BCH</span></td>
+                                        <td><span class="price">$584.5000</span></td>
+                                        <td><span class="change negative">-2.16%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">18</span></td>
+                                        <td><span class="symbol">ETH</span></td>
+                                        <td><span class="price">$3301.0100</span></td>
+                                        <td><span class="change negative">-1.61%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">19</span></td>
+                                        <td><span class="symbol">BNB</span></td>
+                                        <td><span class="price">$934.4400</span></td>
+                                        <td><span class="change negative">-1.48%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">20</span></td>
+                                        <td><span class="symbol">BTC</span></td>
+                                        <td><span class="price">$96074.0000</span></td>
+                                        <td><span class="change negative">-0.91%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">21</span></td>
+                                        <td><span class="symbol">MATIC</span></td>
+                                        <td><span class="price">$0.3794</span></td>
+                                        <td><span class="change negative">-0.73%</span></td>
+                                    </tr>
+
+                                <tr class="total-row">
+                                    <td colspan="2">TOTAL</td>
+                                    <td></td>
+                                    <td><span class="change negative">-83.80%</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="table-wrapper">
+                        <div class="table-header">📉 Pérdidas Últimos 7 Días (12)</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 40px;">#</th>
+                                    <th>Moneda</th>
+                                    <th>Precio</th>
+                                    <th>Cambio 7d</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                    <tr>
+                                        <td><span class="rank">1</span></td>
+                                        <td><span class="symbol">LTC</span></td>
+                                        <td><span class="price">$72.2700</span></td>
+                                        <td><span class="change negative">-11.31%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">2</span></td>
+                                        <td><span class="symbol">BCH</span></td>
+                                        <td><span class="price">$584.5000</span></td>
+                                        <td><span class="change negative">-7.91%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">3</span></td>
+                                        <td><span class="symbol">GMT</span></td>
+                                        <td><span class="price">$0.0179</span></td>
+                                        <td><span class="change negative">-6.19%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">4</span></td>
+                                        <td><span class="symbol">UNI</span></td>
+                                        <td><span class="price">$5.3490</span></td>
+                                        <td><span class="change negative">-2.16%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">5</span></td>
+                                        <td><span class="symbol">SUI</span></td>
+                                        <td><span class="price">$1.7747</span></td>
+                                        <td><span class="change negative">-2.04%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">6</span></td>
+                                        <td><span class="symbol">WIF</span></td>
+                                        <td><span class="price">$0.3810</span></td>
+                                        <td><span class="change negative">-1.80%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">7</span></td>
+                                        <td><span class="symbol">DYDX</span></td>
+                                        <td><span class="price">$0.1951</span></td>
+                                        <td><span class="change negative">-1.06%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">8</span></td>
+                                        <td><span class="symbol">XRP</span></td>
+                                        <td><span class="price">$2.0741</span></td>
+                                        <td><span class="change negative">-1.04%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">9</span></td>
+                                        <td><span class="symbol">INJ</span></td>
+                                        <td><span class="price">$5.1590</span></td>
+                                        <td><span class="change negative">-0.65%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">10</span></td>
+                                        <td><span class="symbol">MATIC</span></td>
+                                        <td><span class="price">$0.3794</span></td>
+                                        <td><span class="change negative">-0.52%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">11</span></td>
+                                        <td><span class="symbol">XLM</span></td>
+                                        <td><span class="price">$0.2274</span></td>
+                                        <td><span class="change negative">-0.44%</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span class="rank">12</span></td>
+                                        <td><span class="symbol">ARB</span></td>
+                                        <td><span class="price">$0.2073</span></td>
+                                        <td><span class="change negative">-0.10%</span></td>
+                                    </tr>
+
+                                <tr class="total-row">
+                                    <td colspan="2">TOTAL</td>
+                                    <td></td>
+                                    <td><span class="change negative">-35.24%</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">⚖️ Análisis de Volatilidad</h2>
+                <div class="table-wrapper">
+                    <div class="table-header">Todas las Monedas Ordenadas por Volatilidad</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Moneda</th>
+                                <th>Precio</th>
+                                <th>Alto 7d</th>
+                                <th>Bajo 7d</th>
+                                <th>Volatilidad</th>
+                                <th>24h</th>
+                                <th>Volumen 24h</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                                <tr>
+                                    <td><span class="symbol">GMT</span></td>
+                                    <td><span class="price">$0.0179</span></td>
+                                    <td>$0.0221</td>
+                                    <td>$0.0179</td>
+                                    <td><strong>23.56%</strong></td>
+                                    <td><span class="change negative">-6.24%</span></td>
+                                    <td>$0.9M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">OP</span></td>
+                                    <td><span class="price">$0.3410</span></td>
+                                    <td>$0.3669</td>
+                                    <td>$0.3088</td>
+                                    <td><strong>18.81%</strong></td>
+                                    <td><span class="change negative">-2.99%</span></td>
+                                    <td>$9.0M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">WIF</span></td>
+                                    <td><span class="price">$0.3810</span></td>
+                                    <td>$0.4200</td>
+                                    <td>$0.3690</td>
+                                    <td><strong>13.82%</strong></td>
+                                    <td><span class="change negative">-7.30%</span></td>
+                                    <td>$9.5M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">LTC</span></td>
+                                    <td><span class="price">$72.2700</span></td>
+                                    <td>$81.4900</td>
+                                    <td>$72.2700</td>
+                                    <td><strong>12.76%</strong></td>
+                                    <td><span class="change negative">-5.74%</span></td>
+                                    <td>$100.1M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">INJ</span></td>
+                                    <td><span class="price">$5.1590</span></td>
+                                    <td>$5.6430</td>
+                                    <td>$5.0260</td>
+                                    <td><strong>12.28%</strong></td>
+                                    <td><span class="change negative">-6.66%</span></td>
+                                    <td>$5.7M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">BCH</span></td>
+                                    <td><span class="price">$584.5000</span></td>
+                                    <td>$649.1000</td>
+                                    <td>$584.5000</td>
+                                    <td><strong>11.05%</strong></td>
+                                    <td><span class="change negative">-2.16%</span></td>
+                                    <td>$110.1M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">DOT</span></td>
+                                    <td><span class="price">$2.1230</span></td>
+                                    <td>$2.2820</td>
+                                    <td>$2.0550</td>
+                                    <td><strong>11.05%</strong></td>
+                                    <td><span class="change negative">-4.63%</span></td>
+                                    <td>$11.1M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">DYDX</span></td>
+                                    <td><span class="price">$0.1951</span></td>
+                                    <td>$0.2148</td>
+                                    <td>$0.1937</td>
+                                    <td><strong>10.89%</strong></td>
+                                    <td><span class="change negative">-6.11%</span></td>
+                                    <td>$1.7M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">ARB</span></td>
+                                    <td><span class="price">$0.2073</span></td>
+                                    <td>$0.2214</td>
+                                    <td>$0.2008</td>
+                                    <td><strong>10.26%</strong></td>
+                                    <td><span class="change negative">-4.65%</span></td>
+                                    <td>$9.1M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">ADA</span></td>
+                                    <td><span class="price">$0.3937</span></td>
+                                    <td>$0.4218</td>
+                                    <td>$0.3862</td>
+                                    <td><strong>9.22%</strong></td>
+                                    <td><span class="change negative">-4.97%</span></td>
+                                    <td>$47.1M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">AVAX</span></td>
+                                    <td><span class="price">$13.8200</span></td>
+                                    <td>$14.7500</td>
+                                    <td>$13.5300</td>
+                                    <td><strong>9.02%</strong></td>
+                                    <td><span class="change negative">-5.34%</span></td>
+                                    <td>$28.6M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">XLM</span></td>
+                                    <td><span class="price">$0.2274</span></td>
+                                    <td>$0.2386</td>
+                                    <td>$0.2193</td>
+                                    <td><strong>8.80%</strong></td>
+                                    <td><span class="change negative">-3.68%</span></td>
+                                    <td>$9.8M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">ETH</span></td>
+                                    <td><span class="price">$3301.0100</span></td>
+                                    <td>$3354.9200</td>
+                                    <td>$3086.7200</td>
+                                    <td><strong>8.69%</strong></td>
+                                    <td><span class="change negative">-1.61%</span></td>
+                                    <td>$1103.9M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">SOL</span></td>
+                                    <td><span class="price">$142.3900</span></td>
+                                    <td>$146.6900</td>
+                                    <td>$135.8400</td>
+                                    <td><strong>7.99%</strong></td>
+                                    <td><span class="change negative">-2.93%</span></td>
+                                    <td>$300.1M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">LINK</span></td>
+                                    <td><span class="price">$13.7500</span></td>
+                                    <td>$14.1100</td>
+                                    <td>$13.0800</td>
+                                    <td><strong>7.87%</strong></td>
+                                    <td><span class="change negative">-2.55%</span></td>
+                                    <td>$34.1M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">BTC</span></td>
+                                    <td><span class="price">$96074.0000</span></td>
+                                    <td>$96951.7800</td>
+                                    <td>$90504.7000</td>
+                                    <td><strong>7.12%</strong></td>
+                                    <td><span class="change negative">-0.91%</span></td>
+                                    <td>$1730.0M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">UNI</span></td>
+                                    <td><span class="price">$5.3490</span></td>
+                                    <td>$5.7300</td>
+                                    <td>$5.3490</td>
+                                    <td><strong>7.12%</strong></td>
+                                    <td><span class="change negative">-5.84%</span></td>
+                                    <td>$23.3M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">SUI</span></td>
+                                    <td><span class="price">$1.7747</span></td>
+                                    <td>$1.8813</td>
+                                    <td>$1.7624</td>
+                                    <td><strong>6.75%</strong></td>
+                                    <td><span class="change negative">-4.23%</span></td>
+                                    <td>$72.7M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">BNB</span></td>
+                                    <td><span class="price">$934.4400</span></td>
+                                    <td>$948.4700</td>
+                                    <td>$896.8600</td>
+                                    <td><strong>5.75%</strong></td>
+                                    <td><span class="change negative">-1.48%</span></td>
+                                    <td>$101.6M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">XRP</span></td>
+                                    <td><span class="price">$2.0741</span></td>
+                                    <td>$2.1655</td>
+                                    <td>$2.0540</td>
+                                    <td><strong>5.43%</strong></td>
+                                    <td><span class="change negative">-3.05%</span></td>
+                                    <td>$155.7M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">MATIC</span></td>
+                                    <td><span class="price">$0.3794</span></td>
+                                    <td>$0.3822</td>
+                                    <td>$0.3659</td>
+                                    <td><strong>4.45%</strong></td>
+                                    <td><span class="change negative">-0.73%</span></td>
+                                    <td>$1.7M</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="symbol">TRX</span></td>
+                                    <td><span class="price">$0.3088</span></td>
+                                    <td>$0.3088</td>
+                                    <td>$0.2984</td>
+                                    <td><strong>3.49%</strong></td>
+                                    <td><span class="change positive">+1.35%</span></td>
+                                    <td>$66.2M</td>
+                                </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>💡 Reporte generado: 15/1/2026, 19:37:36</p>
+            <p>📌 Monedas monitoreadas: 22 | ⚠️ No es asesoramiento financiero</p>
+            <p>Datos en tiempo real desde Binance API</p>
+        </div>
+    </div>
+</body>
+</html>
